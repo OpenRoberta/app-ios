@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LERevision.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LERevision</TokenIdentifier>
+			<Abstract type="html">Holds revision info to represent for example the hardware and firmware revisions
+of a device and attached IOs (services).</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/setStringRepresentation:</TokenIdentifier>
+			<Abstract type="html">A formatted string representation of the revision</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *stringRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/stringRepresentation</TokenIdentifier>
+			<Abstract type="html">A formatted string representation of the revision</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *stringRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERevision/stringRepresentation</TokenIdentifier>
+			<Abstract type="html">A formatted string representation of the revision</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *stringRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/setMajorVersion:</TokenIdentifier>
+			<Abstract type="html">The major version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger majorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/majorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/majorVersion</TokenIdentifier>
+			<Abstract type="html">The major version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger majorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/majorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERevision/majorVersion</TokenIdentifier>
+			<Abstract type="html">The major version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger majorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/majorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/setMinorVersion:</TokenIdentifier>
+			<Abstract type="html">The minor version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger minorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/minorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/minorVersion</TokenIdentifier>
+			<Abstract type="html">The minor version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger minorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/minorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERevision/minorVersion</TokenIdentifier>
+			<Abstract type="html">The minor version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger minorVersion</Declaration>
+			
+			
+			<Anchor>//api/name/minorVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/setBugFixVersion:</TokenIdentifier>
+			<Abstract type="html">The bug fix version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger bugFixVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bugFixVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/bugFixVersion</TokenIdentifier>
+			<Abstract type="html">The bug fix version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger bugFixVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bugFixVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERevision/bugFixVersion</TokenIdentifier>
+			<Abstract type="html">The bug fix version number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger bugFixVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bugFixVersion</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/setBuildNumber:</TokenIdentifier>
+			<Abstract type="html">The build number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger buildNumber</Declaration>
+			
+			
+			<Anchor>//api/name/buildNumber</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/buildNumber</TokenIdentifier>
+			<Abstract type="html">The build number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger buildNumber</Declaration>
+			
+			
+			<Anchor>//api/name/buildNumber</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERevision/buildNumber</TokenIdentifier>
+			<Abstract type="html">The build number</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger buildNumber</Declaration>
+			
+			
+			<Anchor>//api/name/buildNumber</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERevision/isEqualToRevision:</TokenIdentifier>
+			<Abstract type="html">Return YES if this revision is equal to otherRevision</Abstract>
+			<DeclaredIn>LERevision.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToRevision:(LERevision *)otherRevision</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherRevision</Name>
+					<Abstract type="html">The revision to check for equality with</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToRevision:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

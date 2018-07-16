@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LETiltSensorDirection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LETiltSensorDirection</TokenIdentifier>
+			<Abstract type="html">Direction of tilt sensor</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionNeutral</TokenIdentifier>
+            <Abstract type="html">Neutral</Abstract>
+            <Declaration>LETiltSensorDirectionNeutral</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionBackward</TokenIdentifier>
+            <Abstract type="html">Backward</Abstract>
+            <Declaration>LETiltSensorDirectionBackward</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionRight</TokenIdentifier>
+            <Abstract type="html">Right</Abstract>
+            <Declaration>LETiltSensorDirectionRight</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionLeft</TokenIdentifier>
+            <Abstract type="html">Left</Abstract>
+            <Declaration>LETiltSensorDirectionLeft</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionForward</TokenIdentifier>
+            <Abstract type="html">Forward</Abstract>
+            <Declaration>LETiltSensorDirectionForward</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorDirectionUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown</Abstract>
+            <Declaration>LETiltSensorDirectionUnknown</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="36"/>
+        </Token>
+        
+	</File>
+</Tokens>

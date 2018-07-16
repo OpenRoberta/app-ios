@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEDevice</TokenIdentifier>
+			<Abstract type="html">A device represents the physical device / Hub.
+The device may have a number of services (inputs, motors, etc).</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setServices:</TokenIdentifier>
+			<Abstract type="html">The currently available inputs and outputs</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *services</Declaration>
+			
+			
+			<Anchor>//api/name/services</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/services</TokenIdentifier>
+			<Abstract type="html">The currently available inputs and outputs</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *services</Declaration>
+			
+			
+			<Anchor>//api/name/services</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/services</TokenIdentifier>
+			<Abstract type="html">The currently available inputs and outputs</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *services</Declaration>
+			
+			
+			<Anchor>//api/name/services</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setInternalServices:</TokenIdentifier>
+			<Abstract type="html">An internal service is a service that is inherent to the device - something that can never be &apos;detached&apos;.
+Examples include the LEVoltageSensor and LECurrentSensor that</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *internalServices</Declaration>
+			
+			
+			<Anchor>//api/name/internalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/internalServices</TokenIdentifier>
+			<Abstract type="html">An internal service is a service that is inherent to the device - something that can never be &apos;detached&apos;.
+Examples include the LEVoltageSensor and LECurrentSensor that</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *internalServices</Declaration>
+			
+			
+			<Anchor>//api/name/internalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/internalServices</TokenIdentifier>
+			<Abstract type="html">An internal service is a service that is inherent to the device - something that can never be &apos;detached&apos;.
+Examples include the LEVoltageSensor and LECurrentSensor that</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *internalServices</Declaration>
+			
+			
+			<Anchor>//api/name/internalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setExternalServices:</TokenIdentifier>
+			<Abstract type="html">An external service is a service that represent and IO that can be attached to the device Hub.
+Examples include the LEMotor, LETiltSensor and LEMotionSensor</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *externalServices</Declaration>
+			
+			
+			<Anchor>//api/name/externalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/externalServices</TokenIdentifier>
+			<Abstract type="html">An external service is a service that represent and IO that can be attached to the device Hub.
+Examples include the LEMotor, LETiltSensor and LEMotionSensor</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *externalServices</Declaration>
+			
+			
+			<Anchor>//api/name/externalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/externalServices</TokenIdentifier>
+			<Abstract type="html">An external service is a service that represent and IO that can be attached to the device Hub.
+Examples include the LEMotor, LETiltSensor and LEMotionSensor</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *externalServices</Declaration>
+			
+			
+			<Anchor>//api/name/externalServices</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setConnectState:</TokenIdentifier>
+			<Abstract type="html">Returns the current state of the connection.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceState connectState</Declaration>
+			
+			
+			<Anchor>//api/name/connectState</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/connectState</TokenIdentifier>
+			<Abstract type="html">Returns the current state of the connection.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceState connectState</Declaration>
+			
+			
+			<Anchor>//api/name/connectState</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/connectState</TokenIdentifier>
+			<Abstract type="html">Returns the current state of the connection.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceState connectState</Declaration>
+			
+			
+			<Anchor>//api/name/connectState</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setDeviceId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/deviceId</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/deviceId</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setName:</TokenIdentifier>
+			<Abstract type="html">The most recent value of the name property read from the Hub.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/name</TokenIdentifier>
+			<Abstract type="html">The most recent value of the name property read from the Hub.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/name</TokenIdentifier>
+			<Abstract type="html">The most recent value of the name property read from the Hub.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setButtonPressed:</TokenIdentifier>
+			<Abstract type="html">The most recent button pressed state read from the Device .</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isButtonPressed) BOOL buttonPressed</Declaration>
+			
+			
+			<Anchor>//api/name/buttonPressed</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/isButtonPressed</TokenIdentifier>
+			<Abstract type="html">The most recent button pressed state read from the Device .</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isButtonPressed) BOOL buttonPressed</Declaration>
+			
+			
+			<Anchor>//api/name/buttonPressed</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/buttonPressed</TokenIdentifier>
+			<Abstract type="html">The most recent button pressed state read from the Device .</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isButtonPressed) BOOL buttonPressed</Declaration>
+			
+			
+			<Anchor>//api/name/buttonPressed</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setCategory:</TokenIdentifier>
+			<Abstract type="html">The System Category of the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceCategory category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/category</TokenIdentifier>
+			<Abstract type="html">The System Category of the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceCategory category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/category</TokenIdentifier>
+			<Abstract type="html">The System Category of the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceCategory category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setSupportedFunctions:</TokenIdentifier>
+			<Abstract type="html">The Fuction(s) supported by the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceFunction supportedFunctions</Declaration>
+			
+			
+			<Anchor>//api/name/supportedFunctions</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/supportedFunctions</TokenIdentifier>
+			<Abstract type="html">The Fuction(s) supported by the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceFunction supportedFunctions</Declaration>
+			
+			
+			<Anchor>//api/name/supportedFunctions</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/supportedFunctions</TokenIdentifier>
+			<Abstract type="html">The Fuction(s) supported by the connected Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceFunction supportedFunctions</Declaration>
+			
+			
+			<Anchor>//api/name/supportedFunctions</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setLastConnectedNetworkId:</TokenIdentifier>
+			<Abstract type="html">The ID of the network this Device was connected to last</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger lastConnectedNetworkId</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedNetworkId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/lastConnectedNetworkId</TokenIdentifier>
+			<Abstract type="html">The ID of the network this Device was connected to last</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger lastConnectedNetworkId</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedNetworkId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/lastConnectedNetworkId</TokenIdentifier>
+			<Abstract type="html">The ID of the network this Device was connected to last</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger lastConnectedNetworkId</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedNetworkId</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setLowVoltage:</TokenIdentifier>
+			<Abstract type="html">True if the a low voltage alert has been received from the Device, indicating that batteries should be changed/charged</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL lowVoltage</Declaration>
+			
+			
+			<Anchor>//api/name/lowVoltage</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/lowVoltage</TokenIdentifier>
+			<Abstract type="html">True if the a low voltage alert has been received from the Device, indicating that batteries should be changed/charged</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL lowVoltage</Declaration>
+			
+			
+			<Anchor>//api/name/lowVoltage</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/lowVoltage</TokenIdentifier>
+			<Abstract type="html">True if the a low voltage alert has been received from the Device, indicating that batteries should be changed/charged</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL lowVoltage</Declaration>
+			
+			
+			<Anchor>//api/name/lowVoltage</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/setDeviceInfo:</TokenIdentifier>
+			<Abstract type="html">Info about the device hardware, firmware, and software revision</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceInfo *deviceInfo</Declaration>
+			
+			
+			<Anchor>//api/name/deviceInfo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/deviceInfo</TokenIdentifier>
+			<Abstract type="html">Info about the device hardware, firmware, and software revision</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceInfo *deviceInfo</Declaration>
+			
+			
+			<Anchor>//api/name/deviceInfo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDevice/deviceInfo</TokenIdentifier>
+			<Abstract type="html">Info about the device hardware, firmware, and software revision</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEDeviceInfo *deviceInfo</Declaration>
+			
+			
+			<Anchor>//api/name/deviceInfo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/addDelegate:</TokenIdentifier>
+			<Abstract type="html">If a delegate is registered it receives callbacks on changes to offered services,
+as well as properties of the device like name and color.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)addDelegate:(id&lt;LEDeviceDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to add</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addDelegate:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/removeDelegate:</TokenIdentifier>
+			<Abstract type="html">Remove delegate from this device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)removeDelegate:(id&lt;LEDeviceDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to remove</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeDelegate:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDevice/isEqualToDevice:</TokenIdentifier>
+			<Abstract type="html">Returns YES if this device is equal to otherDevice</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToDevice:(LEDevice *)otherDevice</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherDevice</Name>
+					<Abstract type="html">The device to be compared to the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToDevice:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

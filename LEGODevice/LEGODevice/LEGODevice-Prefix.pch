@@ -1,0 +1,19 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+
+@import Foundation;
+@import CoreBluetooth;
+
+// for CIColor
+#if TARGET_OS_IPHONE
+    @import CoreImage;
+#else
+    @import QuartzCore;
+#endif
+
+#endif

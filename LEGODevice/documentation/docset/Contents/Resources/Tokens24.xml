@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LEServiceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LEServiceDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified when a service (typically a sensor of some kind) sends an updated value.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEServiceDelegate/service:didUpdateValueDataFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when a service receives an updated value.
+You can use of the convenience methods [LEService numberFromValueData], [LEService valueAsInteger] or [LEService valueAsFloat]
+to retrieve the value as a number.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)service:(LEService *)service didUpdateValueDataFrom:(NSData *)oldValue to:(NSData *)newValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">The service that received an updated value</Abstract>
+				</Parameter><Parameter>
+					<Name>oldValue</Name>
+					<Abstract type="html">The previous value</Abstract>
+				</Parameter><Parameter>
+					<Name>newValue</Name>
+					<Abstract type="html">The new value</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/service:didUpdateValueDataFrom:to:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEServiceDelegate/service:didUpdateInputFormatFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when a service receives an updated LEInputFormat</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)service:(LEService *)service didUpdateInputFormatFrom:(LEInputFormat *)oldFormat to:(LEInputFormat *)newFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">The service that received an updated value</Abstract>
+				</Parameter><Parameter>
+					<Name>oldFormat</Name>
+					<Abstract type="html">The previous input format</Abstract>
+				</Parameter><Parameter>
+					<Name>newFormat</Name>
+					<Abstract type="html">The new input format</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/service:didUpdateInputFormatFrom:to:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEDataFormat.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEDataFormat</TokenIdentifier>
+			<Abstract type="html">This class contains info detailing how the data received for a given service (typically a sensor of some kind) should be interpreted.</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/LEDataFormat/formatWithModeName:mode:unit:sizeOfDataSet:dataSetCount:</TokenIdentifier>
+			<Abstract type="html">Create and initialize a new instance of an LEDataFormat.</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)formatWithModeName:(NSString *)modeName mode:(uint8_t)modeValue unit:(LEInputFormatUnit)unit sizeOfDataSet:(uint8_t)numberOfBytes dataSetCount:(uint8_t)numberOfDataSets</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modeName</Name>
+					<Abstract type="html">The name of the mode</Abstract>
+				</Parameter><Parameter>
+					<Name>modeValue</Name>
+					<Abstract type="html">The sensor mode</Abstract>
+				</Parameter><Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">The sensor unit</Abstract>
+				</Parameter><Parameter>
+					<Name>numberOfBytes</Name>
+					<Abstract type="html">The number of bytes in a data set</Abstract>
+				</Parameter><Parameter>
+					<Name>numberOfDataSets</Name>
+					<Abstract type="html">The number of data sets</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/formatWithModeName:mode:unit:sizeOfDataSet:dataSetCount:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setModeName:</TokenIdentifier>
+			<Abstract type="html">The name sensor mode (fx. crash, tilt or angle for a tilt sensor)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *modeName</Declaration>
+			
+			
+			<Anchor>//api/name/modeName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/modeName</TokenIdentifier>
+			<Abstract type="html">The name sensor mode (fx. crash, tilt or angle for a tilt sensor)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *modeName</Declaration>
+			
+			
+			<Anchor>//api/name/modeName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/modeName</TokenIdentifier>
+			<Abstract type="html">The name sensor mode (fx. crash, tilt or angle for a tilt sensor)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *modeName</Declaration>
+			
+			
+			<Anchor>//api/name/modeName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setMode:</TokenIdentifier>
+			<Abstract type="html">The sensor mode</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/mode</TokenIdentifier>
+			<Abstract type="html">The sensor mode</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/mode</TokenIdentifier>
+			<Abstract type="html">The sensor mode</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setUnitName:</TokenIdentifier>
+			<Abstract type="html">The sensor unit name (Raw or SI)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *unitName</Declaration>
+			
+			
+			<Anchor>//api/name/unitName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/unitName</TokenIdentifier>
+			<Abstract type="html">The sensor unit name (Raw or SI)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *unitName</Declaration>
+			
+			
+			<Anchor>//api/name/unitName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/unitName</TokenIdentifier>
+			<Abstract type="html">The sensor unit name (Raw or SI)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *unitName</Declaration>
+			
+			
+			<Anchor>//api/name/unitName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setUnit:</TokenIdentifier>
+			<Abstract type="html">The sensor unit</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/unit</TokenIdentifier>
+			<Abstract type="html">The sensor unit</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/unit</TokenIdentifier>
+			<Abstract type="html">The sensor unit</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setDataSetSize:</TokenIdentifier>
+			<Abstract type="html">The data set size - fx. 4 if the data is a four byte float</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetSize</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/dataSetSize</TokenIdentifier>
+			<Abstract type="html">The data set size - fx. 4 if the data is a four byte float</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetSize</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/dataSetSize</TokenIdentifier>
+			<Abstract type="html">The data set size - fx. 4 if the data is a four byte float</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetSize</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/setDataSetCount:</TokenIdentifier>
+			<Abstract type="html">The data set count (fx. size 3 for a sensor that produce a value in x, y and z-direction)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetCount</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetCount</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/dataSetCount</TokenIdentifier>
+			<Abstract type="html">The data set count (fx. size 3 for a sensor that produce a value in x, y and z-direction)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetCount</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetCount</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDataFormat/dataSetCount</TokenIdentifier>
+			<Abstract type="html">The data set count (fx. size 3 for a sensor that produce a value in x, y and z-direction)</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t dataSetCount</Declaration>
+			
+			
+			<Anchor>//api/name/dataSetCount</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDataFormat/isEqualToFormat:</TokenIdentifier>
+			<Abstract type="html">Returns YES if this data format is equal to otherFormat</Abstract>
+			<DeclaredIn>LEDataFormat.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToFormat:(LEDataFormat *)otherFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherFormat</Name>
+					<Abstract type="html">The format to be compared to the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToFormat:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

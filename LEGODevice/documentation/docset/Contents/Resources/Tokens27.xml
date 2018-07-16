@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEDeviceCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEDeviceCategory</TokenIdentifier>
+			<Abstract type="html">The Category of this Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategoryWeDo</TokenIdentifier>
+            <Abstract type="html">WeDo</Abstract>
+            <Declaration>LEDeviceCategoryWeDo</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategoryDuplo</TokenIdentifier>
+            <Abstract type="html">Duplo</Abstract>
+            <Declaration>LEDeviceCategoryDuplo</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategorySystem</TokenIdentifier>
+            <Abstract type="html">System</Abstract>
+            <Declaration>LEDeviceCategorySystem</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategoryTechnic</TokenIdentifier>
+            <Abstract type="html">Technic</Abstract>
+            <Declaration>LEDeviceCategoryTechnic</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategoryMindStorms</TokenIdentifier>
+            <Abstract type="html">MINDSTORMS</Abstract>
+            <Declaration>LEDeviceCategoryMindStorms</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceCategoryUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown</Abstract>
+            <Declaration>LEDeviceCategoryUnknown</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+	</File>
+</Tokens>

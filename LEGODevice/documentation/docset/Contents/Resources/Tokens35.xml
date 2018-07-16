@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEPiezoTonePlayerNote.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEPiezoTonePlayerNote</TokenIdentifier>
+			<Abstract type="html">  Notes that can be played using the LEPiezoTonePlayer</Abstract>
+			<DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteC</TokenIdentifier>
+            <Abstract type="html">C</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteC</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteCis</TokenIdentifier>
+            <Abstract type="html">C#</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteCis</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteD</TokenIdentifier>
+            <Abstract type="html">D</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteD</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteDis</TokenIdentifier>
+            <Abstract type="html">D#</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteDis</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteE</TokenIdentifier>
+            <Abstract type="html">E</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteE</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteF</TokenIdentifier>
+            <Abstract type="html">F</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteF</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteFis</TokenIdentifier>
+            <Abstract type="html">F#</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteFis</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteG</TokenIdentifier>
+            <Abstract type="html">G</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteG</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteGis</TokenIdentifier>
+            <Abstract type="html">G#</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteGis</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteA</TokenIdentifier>
+            <Abstract type="html">A</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteA</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteAis</TokenIdentifier>
+            <Abstract type="html">A#</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteAis</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEPiezoTonePlayerNoteB</TokenIdentifier>
+            <Abstract type="html">B</Abstract>
+            <Declaration>LEPiezoTonePlayerNoteB</Declaration>
+            
+            <DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+            <NodeRef refid="35"/>
+        </Token>
+        
+	</File>
+</Tokens>

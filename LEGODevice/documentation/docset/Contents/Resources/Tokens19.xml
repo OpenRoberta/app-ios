@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LEDeviceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LEDeviceDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified about changes to the attributes of the device.
+The delegate will notify you when an IO such as a motor or sensor is attached or detached from the Device.
+The delegate will also notify about changes to the device name, battery level and the connect-button state (pressed/released).</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didUpdateDeviceInfo:error:</TokenIdentifier>
+			<Abstract type="html">Invoked when a new LEDeviceInfo with info about the software and firmware revision is received from the device.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didUpdateDeviceInfo:(LEDeviceInfo *)deviceInfo error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>deviceInfo</Name>
+					<Abstract type="html">Info about software and firmware revision of the device</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">If an error occurred, the cause of the failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didUpdateDeviceInfo:error:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didChangeNameFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked if the device sends an updated device name.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didChangeNameFrom:(NSString *)oldName to:(NSString *)newName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>oldName</Name>
+					<Abstract type="html">The previous name of the device</Abstract>
+				</Parameter><Parameter>
+					<Name>newName</Name>
+					<Abstract type="html">The new name of the device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didChangeNameFrom:to:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didChangeButtonState:</TokenIdentifier>
+			<Abstract type="html">Invoked when the user press or release the connect-button on the device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didChangeButtonState:(BOOL)pressed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>pressed</Name>
+					<Abstract type="html">YES if the button is pressed, NO otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didChangeButtonState:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didUpdateBatteryLevel:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device sends an updated battery level.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didUpdateBatteryLevel:(NSNumber *)newLevel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>newLevel</Name>
+					<Abstract type="html">The new battery level as a number between 0 and 100.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didUpdateBatteryLevel:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didUpdateLowVoltageState:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device sends a low voltage notification.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didUpdateLowVoltageState:(BOOL)lowVoltage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device.</Abstract>
+				</Parameter><Parameter>
+					<Name>lowVoltage</Name>
+					<Abstract type="html">YES if the battery has &apos;low voltage&apos;, false otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didUpdateLowVoltageState:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didAddService:</TokenIdentifier>
+			<Abstract type="html">Invoked when the a new motor, sensor or other service is attached to the device (Hub).</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didAddService:(LEService *)service</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>service</Name>
+					<Abstract type="html">The attached service</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didAddService:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didRemoveService:</TokenIdentifier>
+			<Abstract type="html">Invoked when a new motor, sensor or other service is detached from the device (Hub).</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didRemoveService:(LEService *)service</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>service</Name>
+					<Abstract type="html">The detached service</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didRemoveService:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceDelegate/device:didFailToAddServiceWithError:</TokenIdentifier>
+			<Abstract type="html">Invoked when an update from the device about attached services (sensor, motors, etc) could not
+be understood.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)device:(LEDevice *)device didFailToAddServiceWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The cause of the failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/device:didFailToAddServiceWithError:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

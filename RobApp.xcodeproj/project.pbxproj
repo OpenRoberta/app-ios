@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5271591FFF9FBB00F65E85 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E5271581FFF9FBB00F65E85 /* Settings.bundle */; };
+		7E53FDA51FD9782B00B73E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FDA41FD9782B00B73E92 /* AppDelegate.swift */; };
+		7E53FDAA1FD9782B00B73E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E53FDA81FD9782B00B73E92 /* Main.storyboard */; };
+		7E53FDAC1FD9782B00B73E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E53FDAB1FD9782B00B73E92 /* Assets.xcassets */; };
+		7E53FDAF1FD9782B00B73E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E53FDAD1FD9782B00B73E92 /* LaunchScreen.storyboard */; };
+		7E53FDCA1FD97C3B00B73E92 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FDB91FD97C3A00B73E92 /* DeviceManager.swift */; };
+		7E53FDD11FD97C3B00B73E92 /* WeDoDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FDC01FD97C3A00B73E92 /* WeDoDevice.swift */; };
+		7E53FDD21FD97C3B00B73E92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53FDC21FD97C3B00B73E92 /* MainViewController.swift */; };
+		7E53FDF31FD982EB00B73E92 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53FDF21FD982DE00B73E92 /* CoreBluetooth.framework */; };
+		7E53FDF51FD982FB00B73E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53FDF41FD982F300B73E92 /* CoreGraphics.framework */; };
+		7E53FDF91FD9845B00B73E92 /* libLEGODevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53FDE31FD97D8D00B73E92 /* libLEGODevice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E53FDE21FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45BAB99217BCD29D00D0850C;
+			remoteInfo = "LEGODevice-iOS";
+		};
+		7E53FDE41FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B067591A89F6A4003C8582;
+			remoteInfo = "LEGODevice-OSX";
+		};
+		7E53FDE61FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45BAB9A217BCD29D00D0850C;
+			remoteInfo = "LEGODeviceTests-iOS";
+		};
+		7E53FDE81FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B067631A89F6A5003C8582;
+			remoteInfo = "LEGODeviceTests-OSX";
+		};
+		7E53FDEA1FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98FE14851AADEB4D007142BA;
+			remoteInfo = "LEGODevice-iOS-Unity";
+		};
+		7E53FDEC1FD97D8D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9816E4D81AA72A9900911396;
+			remoteInfo = "LEGODevice-OSX-Unity";
+		};
+		7E53FDF61FD9834D00B73E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BAB99117BCD29D00D0850C;
+			remoteInfo = "LEGODevice-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E4A3027202494ED0090246B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E5271581FFF9FBB00F65E85 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7E53FDA11FD9782B00B73E92 /* RobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E53FDA41FD9782B00B73E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E53FDA91FD9782B00B73E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E53FDAB1FD9782B00B73E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E53FDAE1FD9782B00B73E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E53FDB01FD9782B00B73E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E53FDB61FD97C1000B73E92 /* RobApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RobApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		7E53FDB91FD97C3A00B73E92 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		7E53FDC01FD97C3A00B73E92 /* WeDoDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeDoDevice.swift; sourceTree = "<group>"; };
+		7E53FDC21FD97C3B00B73E92 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LEGODevice.xcodeproj; path = LEGODevice/LEGODevice.xcodeproj; sourceTree = "<group>"; };
+		7E53FDF21FD982DE00B73E92 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7E53FDF41FD982F300B73E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E53FD9E1FD9782B00B73E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E53FDF91FD9845B00B73E92 /* libLEGODevice.a in Frameworks */,
+				7E53FDF51FD982FB00B73E92 /* CoreGraphics.framework in Frameworks */,
+				7E53FDF31FD982EB00B73E92 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E53FD981FD9782B00B73E92 = {
+			isa = PBXGroup;
+			children = (
+				7E4A3027202494ED0090246B /* README.md */,
+				7E53FDA31FD9782B00B73E92 /* RobApp */,
+				7E53FDA21FD9782B00B73E92 /* Products */,
+				7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */,
+				7E53FDF11FD982DE00B73E92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E53FDA21FD9782B00B73E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDA11FD9782B00B73E92 /* RobApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E53FDA31FD9782B00B73E92 /* RobApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDA41FD9782B00B73E92 /* AppDelegate.swift */,
+				7E5271581FFF9FBB00F65E85 /* Settings.bundle */,
+				7E53FDA81FD9782B00B73E92 /* Main.storyboard */,
+				7E53FDAB1FD9782B00B73E92 /* Assets.xcassets */,
+				7E53FDAD1FD9782B00B73E92 /* LaunchScreen.storyboard */,
+				7E53FDB01FD9782B00B73E92 /* Info.plist */,
+				7E53FDB61FD97C1000B73E92 /* RobApp-Bridging-Header.h */,
+				7E53FDB71FD97C3A00B73E92 /* Bluetooth */,
+				7E53FDC11FD97C3A00B73E92 /* Cocoa Touch */,
+			);
+			path = RobApp;
+			sourceTree = "<group>";
+		};
+		7E53FDB71FD97C3A00B73E92 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDB91FD97C3A00B73E92 /* DeviceManager.swift */,
+				7E53FDC01FD97C3A00B73E92 /* WeDoDevice.swift */,
+			);
+			name = Bluetooth;
+			path = Sources/Bluetooth;
+			sourceTree = SOURCE_ROOT;
+		};
+		7E53FDC11FD97C3A00B73E92 /* Cocoa Touch */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDC21FD97C3B00B73E92 /* MainViewController.swift */,
+			);
+			name = "Cocoa Touch";
+			path = "Sources/Cocoa Touch";
+			sourceTree = SOURCE_ROOT;
+		};
+		7E53FDDA1FD97D8D00B73E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDE31FD97D8D00B73E92 /* libLEGODevice.a */,
+				7E53FDE51FD97D8D00B73E92 /* LEGODevice.framework */,
+				7E53FDE71FD97D8D00B73E92 /* LEGODeviceTests-iOS.xctest */,
+				7E53FDE91FD97D8D00B73E92 /* LEGODeviceTests-OSX.xctest */,
+				7E53FDEB1FD97D8D00B73E92 /* libLEGODevice.a */,
+				7E53FDED1FD97D8D00B73E92 /* LEGODevice-OSX.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E53FDF11FD982DE00B73E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E53FDF41FD982F300B73E92 /* CoreGraphics.framework */,
+				7E53FDF21FD982DE00B73E92 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E53FDA01FD9782B00B73E92 /* RobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E53FDB31FD9782B00B73E92 /* Build configuration list for PBXNativeTarget "RobApp" */;
+			buildPhases = (
+				7E53FD9D1FD9782B00B73E92 /* Sources */,
+				7E53FD9E1FD9782B00B73E92 /* Frameworks */,
+				7E53FD9F1FD9782B00B73E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E53FDF71FD9834D00B73E92 /* PBXTargetDependency */,
+			);
+			name = RobApp;
+			productName = RobApp;
+			productReference = 7E53FDA11FD9782B00B73E92 /* RobApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E53FD991FD9782B00B73E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Fraunhofer Gesellschaft";
+				TargetAttributes = {
+					7E53FDA01FD9782B00B73E92 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "RobApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E53FD981FD9782B00B73E92;
+			productRefGroup = 7E53FDA21FD9782B00B73E92 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E53FDDA1FD97D8D00B73E92 /* Products */;
+					ProjectRef = 7E53FDD91FD97D8D00B73E92 /* LEGODevice.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7E53FDA01FD9782B00B73E92 /* RobApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7E53FDE31FD97D8D00B73E92 /* libLEGODevice.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLEGODevice.a;
+			remoteRef = 7E53FDE21FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E53FDE51FD97D8D00B73E92 /* LEGODevice.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LEGODevice.framework;
+			remoteRef = 7E53FDE41FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E53FDE71FD97D8D00B73E92 /* LEGODeviceTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "LEGODeviceTests-iOS.xctest";
+			remoteRef = 7E53FDE61FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E53FDE91FD97D8D00B73E92 /* LEGODeviceTests-OSX.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "LEGODeviceTests-OSX.xctest";
+			remoteRef = 7E53FDE81FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E53FDEB1FD97D8D00B73E92 /* libLEGODevice.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLEGODevice.a;
+			remoteRef = 7E53FDEA1FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E53FDED1FD97D8D00B73E92 /* LEGODevice-OSX.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "LEGODevice-OSX.bundle";
+			remoteRef = 7E53FDEC1FD97D8D00B73E92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E53FD9F1FD9782B00B73E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5271591FFF9FBB00F65E85 /* Settings.bundle in Resources */,
+				7E53FDAF1FD9782B00B73E92 /* LaunchScreen.storyboard in Resources */,
+				7E53FDAC1FD9782B00B73E92 /* Assets.xcassets in Resources */,
+				7E53FDAA1FD9782B00B73E92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E53FD9D1FD9782B00B73E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E53FDCA1FD97C3B00B73E92 /* DeviceManager.swift in Sources */,
+				7E53FDD21FD97C3B00B73E92 /* MainViewController.swift in Sources */,
+				7E53FDD11FD97C3B00B73E92 /* WeDoDevice.swift in Sources */,
+				7E53FDA51FD9782B00B73E92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E53FDF71FD9834D00B73E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LEGODevice-iOS";
+			targetProxy = 7E53FDF61FD9834D00B73E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E53FDA81FD9782B00B73E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E53FDA91FD9782B00B73E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E53FDAD1FD9782B00B73E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E53FDAE1FD9782B00B73E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E53FDB11FD9782B00B73E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E53FDB21FD9782B00B73E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E53FDB41FD9782B00B73E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB2VZ373ZY;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RobApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.iais.RobApp.rbudde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RobApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/LEGODevice/LEGODevice/**";
+			};
+			name = Debug;
+		};
+		7E53FDB51FD9782B00B73E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB2VZ373ZY;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RobApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.iais.RobApp.rbudde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RobApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/LEGODevice/LEGODevice/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "RobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E53FDB11FD9782B00B73E92 /* Debug */,
+				7E53FDB21FD9782B00B73E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E53FDB31FD9782B00B73E92 /* Build configuration list for PBXNativeTarget "RobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E53FDB41FD9782B00B73E92 /* Debug */,
+				7E53FDB51FD9782B00B73E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E53FD991FD9782B00B73E92 /* Project object */;
+}

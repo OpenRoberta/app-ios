@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEDeviceManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEDeviceManager</TokenIdentifier>
+			<Abstract type="html">This class is the main entry point for connecting and communicating with a LEGO Device.
+You must implement the LEDeviceManagerDelegate protocol and set the delegate property
+before scanning for and connecting to devices.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/LEDeviceManager/sharedDeviceManager</TokenIdentifier>
+			<Abstract type="html">The shared LEDeviceManager</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>+ (LEDeviceManager *)sharedDeviceManager</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared LEDeviceManager</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedDeviceManager</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/scan</TokenIdentifier>
+			<Abstract type="html">Start scanning for LEGO BLE devices</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)scan</Declaration>
+			
+			
+			<Anchor>//api/name/scan</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/stopScanning</TokenIdentifier>
+			<Abstract type="html">Stop scanning for LEGO BLE devices and removes all discovered but un-connected devices
+from the list of allDevices</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopScanning</Declaration>
+			
+			
+			<Anchor>//api/name/stopScanning</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/connectToDevice:</TokenIdentifier>
+			<Abstract type="html">Connect to a LEGO LEDevice.
+If a connection is not established within the connectRequestTimeoutInterval the connection attempt is cancelled
+and the [LEDeviceManagerDelegate deviceManager:didFailToConnectToDevice:error] is invoked.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)connectToDevice:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device to establish a connection to</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/connectToDevice:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/setConnectRequestTimeoutInterval:</TokenIdentifier>
+			<Abstract type="html">If a connect request is not successful within this time interval the connection attempt is cancelled
+and the [LEDeviceManagerDelegate deviceManager:didFailToConnectToDevice:error] is invoked.
+The default value is 10 seconds.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSTimeInterval connectRequestTimeoutInterval</Declaration>
+			
+			
+			<Anchor>//api/name/connectRequestTimeoutInterval</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/connectRequestTimeoutInterval</TokenIdentifier>
+			<Abstract type="html">If a connect request is not successful within this time interval the connection attempt is cancelled
+and the [LEDeviceManagerDelegate deviceManager:didFailToConnectToDevice:error] is invoked.
+The default value is 10 seconds.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSTimeInterval connectRequestTimeoutInterval</Declaration>
+			
+			
+			<Anchor>//api/name/connectRequestTimeoutInterval</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceManager/connectRequestTimeoutInterval</TokenIdentifier>
+			<Abstract type="html">If a connect request is not successful within this time interval the connection attempt is cancelled
+and the [LEDeviceManagerDelegate deviceManager:didFailToConnectToDevice:error] is invoked.
+The default value is 10 seconds.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSTimeInterval connectRequestTimeoutInterval</Declaration>
+			
+			
+			<Anchor>//api/name/connectRequestTimeoutInterval</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/setAutomaticReconnectOnConnectionLostEnabled:</TokenIdentifier>
+			<Abstract type="html">If enabled, the LEGDeviceManager will attempt to reconnect in case of a connection loss, but only if the connection was not closed by the user,
+the default value is NO.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL automaticReconnectOnConnectionLostEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/automaticReconnectOnConnectionLostEnabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/automaticReconnectOnConnectionLostEnabled</TokenIdentifier>
+			<Abstract type="html">If enabled, the LEGDeviceManager will attempt to reconnect in case of a connection loss, but only if the connection was not closed by the user,
+the default value is NO.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL automaticReconnectOnConnectionLostEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/automaticReconnectOnConnectionLostEnabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceManager/automaticReconnectOnConnectionLostEnabled</TokenIdentifier>
+			<Abstract type="html">If enabled, the LEGDeviceManager will attempt to reconnect in case of a connection loss, but only if the connection was not closed by the user,
+the default value is NO.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL automaticReconnectOnConnectionLostEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/automaticReconnectOnConnectionLostEnabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/cancelDeviceConnection:</TokenIdentifier>
+			<Abstract type="html">Disconnect from a LEGO Bluetooth LE Device.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelDeviceConnection:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device to disconnect from</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelDeviceConnection:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/setAllDevices:</TokenIdentifier>
+			<Abstract type="html">Returns a list with all known devices regardless of their current connect state.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allDevices</Declaration>
+			
+			
+			<Anchor>//api/name/allDevices</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/allDevices</TokenIdentifier>
+			<Abstract type="html">Returns a list with all known devices regardless of their current connect state.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allDevices</Declaration>
+			
+			
+			<Anchor>//api/name/allDevices</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceManager/allDevices</TokenIdentifier>
+			<Abstract type="html">Returns a list with all known devices regardless of their current connect state.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allDevices</Declaration>
+			
+			
+			<Anchor>//api/name/allDevices</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/addDelegate:</TokenIdentifier>
+			<Abstract type="html">Add a delegate to receive device discovery and connection events</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)addDelegate:(id&lt;LEDeviceManagerDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to add</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addDelegate:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/removeDelegate:</TokenIdentifier>
+			<Abstract type="html">Remove a delegate</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)removeDelegate:(id&lt;LEDeviceManagerDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to remove</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeDelegate:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

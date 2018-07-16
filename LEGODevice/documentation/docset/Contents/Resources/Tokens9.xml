@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LELogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LELogger</TokenIdentifier>
+			<Abstract type="html">Use this class to configure the log level that you want the LEGO Device SDK to use.</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/LELogger/defaultLogger</TokenIdentifier>
+			<Abstract type="html">The shared LELogger</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultLogger</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared LELogger</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultLogger</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">The log level. Default is Error.</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LELoggerLevel logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level. Default is Error.</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LELoggerLevel logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LELogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level. Default is Error.</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LELoggerLevel logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/setDebugLoggingEnabled:</TokenIdentifier>
+			<Abstract type="html">Convenience property for checking if the log level is set to debug (or below)</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isDebugLoggingEnabled) BOOL debugLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/debugLoggingEnabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/isDebugLoggingEnabled</TokenIdentifier>
+			<Abstract type="html">Convenience property for checking if the log level is set to debug (or below)</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isDebugLoggingEnabled) BOOL debugLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/debugLoggingEnabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LELogger/debugLoggingEnabled</TokenIdentifier>
+			<Abstract type="html">Convenience property for checking if the log level is set to debug (or below)</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isDebugLoggingEnabled) BOOL debugLoggingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/debugLoggingEnabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/setLogWriter:</TokenIdentifier>
+			<Abstract type="html">You may set a custom log writer that all log from the library will be written to.
+If set to nil (the default) log will be from the library using the standard NSLog</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;LELogWriter&gt; logWriter</Declaration>
+			
+			
+			<Anchor>//api/name/logWriter</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LELogger/logWriter</TokenIdentifier>
+			<Abstract type="html">You may set a custom log writer that all log from the library will be written to.
+If set to nil (the default) log will be from the library using the standard NSLog</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;LELogWriter&gt; logWriter</Declaration>
+			
+			
+			<Anchor>//api/name/logWriter</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LELogger/logWriter</TokenIdentifier>
+			<Abstract type="html">You may set a custom log writer that all log from the library will be written to.
+If set to nil (the default) log will be from the library using the standard NSLog</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;LELogWriter&gt; logWriter</Declaration>
+			
+			
+			<Anchor>//api/name/logWriter</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

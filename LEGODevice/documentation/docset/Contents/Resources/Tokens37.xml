@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LETiltSensorMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LETiltSensorMode</TokenIdentifier>
+			<Abstract type="html">Tilt sensor mode</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorModeAngle</TokenIdentifier>
+            <Abstract type="html">Angle</Abstract>
+            <Declaration>LETiltSensorModeAngle</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="37"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorModeTilt</TokenIdentifier>
+            <Abstract type="html">Tilt</Abstract>
+            <Declaration>LETiltSensorModeTilt</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="37"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorModeCrash</TokenIdentifier>
+            <Abstract type="html">Crash</Abstract>
+            <Declaration>LETiltSensorModeCrash</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="37"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LETiltSensorModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown</Abstract>
+            <Declaration>LETiltSensorModeUnknown</Declaration>
+            
+            <DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+            <NodeRef refid="37"/>
+        </Token>
+        
+	</File>
+</Tokens>

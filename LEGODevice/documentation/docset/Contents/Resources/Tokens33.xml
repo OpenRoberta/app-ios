@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEMotionSensorMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEMotionSensorMode</TokenIdentifier>
+			<Abstract type="html">Supported modes for the motion sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotionSensorModeDetect</TokenIdentifier>
+            <Abstract type="html">Detect mode - produces value that reflect the relative distance from the sensor to objects in front of it</Abstract>
+            <Declaration>LEMotionSensorModeDetect</Declaration>
+            
+            <DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+            <NodeRef refid="33"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotionSensorModeCount</TokenIdentifier>
+            <Abstract type="html">Count mode - produces values that reflect how many times the sensor has been activated</Abstract>
+            <Declaration>LEMotionSensorModeCount</Declaration>
+            
+            <DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+            <NodeRef refid="33"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotionSensorModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown (unsupported) mode</Abstract>
+            <Declaration>LEMotionSensorModeUnknown</Declaration>
+            
+            <DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+            <NodeRef refid="33"/>
+        </Token>
+        
+	</File>
+</Tokens>

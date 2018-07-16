@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LETiltSensorDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LETiltSensorDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified when the LETiltSensor updates its value</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LETiltSensorDelegate/tiltSensor:didUpdateDirectionFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the tilt sensor has an updated value for direction.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>- (void)tiltSensor:(LETiltSensor *)sensor didUpdateDirectionFrom:(LETiltSensorDirection)oldDirection to:(LETiltSensorDirection)newDirection</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sensor</Name>
+					<Abstract type="html">The tilt sensor</Abstract>
+				</Parameter><Parameter>
+					<Name>oldDirection</Name>
+					<Abstract type="html">The previous direction</Abstract>
+				</Parameter><Parameter>
+					<Name>newDirection</Name>
+					<Abstract type="html">The new direction</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tiltSensor:didUpdateDirectionFrom:to:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LETiltSensorDelegate/tiltSensor:didUpdateAngleFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the tilt sensor has an updated value for angle.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>- (void)tiltSensor:(LETiltSensor *)sensor didUpdateAngleFrom:(LETiltSensorAngle)oldAngle to:(LETiltSensorAngle)newAngle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sensor</Name>
+					<Abstract type="html">The tilt sensor</Abstract>
+				</Parameter><Parameter>
+					<Name>oldAngle</Name>
+					<Abstract type="html">The old angle</Abstract>
+				</Parameter><Parameter>
+					<Name>newAngle</Name>
+					<Abstract type="html">The new angle</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tiltSensor:didUpdateAngleFrom:to:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LETiltSensorDelegate/tiltSensor:didUpdateCrashFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the tilt sensor has an updated value for crash readings.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>- (void)tiltSensor:(LETiltSensor *)sensor didUpdateCrashFrom:(LETiltSensorCrash)oldCrashValue to:(LETiltSensorCrash)newCrashValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sensor</Name>
+					<Abstract type="html">The tilt sensor</Abstract>
+				</Parameter><Parameter>
+					<Name>oldCrashValue</Name>
+					<Abstract type="html">The previous value</Abstract>
+				</Parameter><Parameter>
+					<Name>newCrashValue</Name>
+					<Abstract type="html">The new crash value</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tiltSensor:didUpdateCrashFrom:to:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

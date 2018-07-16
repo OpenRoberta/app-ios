@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEConnectInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEConnectInfo</TokenIdentifier>
+			<Abstract type="html">The Connect Info represent generic info about an IO (service) attached to a device.</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setConnectID:</TokenIdentifier>
+			<Abstract type="html">An identifier used to uniquely identify and address the service. The device is guaranteed not to have two services with the same connectID at the same time</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/connectID</TokenIdentifier>
+			<Abstract type="html">An identifier used to uniquely identify and address the service. The device is guaranteed not to have two services with the same connectID at the same time</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/connectID</TokenIdentifier>
+			<Abstract type="html">An identifier used to uniquely identify and address the service. The device is guaranteed not to have two services with the same connectID at the same time</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setHubIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the port on the Hub the IO is attached to. If the index is higher than or equal to 50 the service is an internal service</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t hubIndex</Declaration>
+			
+			
+			<Anchor>//api/name/hubIndex</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/hubIndex</TokenIdentifier>
+			<Abstract type="html">The index of the port on the Hub the IO is attached to. If the index is higher than or equal to 50 the service is an internal service</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t hubIndex</Declaration>
+			
+			
+			<Anchor>//api/name/hubIndex</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/hubIndex</TokenIdentifier>
+			<Abstract type="html">The index of the port on the Hub the IO is attached to. If the index is higher than or equal to 50 the service is an internal service</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t hubIndex</Declaration>
+			
+			
+			<Anchor>//api/name/hubIndex</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setHardwareVersion:</TokenIdentifier>
+			<Abstract type="html">The hardware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/hardwareVersion</TokenIdentifier>
+			<Abstract type="html">The hardware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/hardwareVersion</TokenIdentifier>
+			<Abstract type="html">The hardware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html">The firmware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">The firmware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">The firmware revision of the attached IO as received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setTypeString:</TokenIdentifier>
+			<Abstract type="html">The type of the IO as a string - useful for printing in debug statements</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *typeString</Declaration>
+			
+			
+			<Anchor>//api/name/typeString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/typeString</TokenIdentifier>
+			<Abstract type="html">The type of the IO as a string - useful for printing in debug statements</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *typeString</Declaration>
+			
+			
+			<Anchor>//api/name/typeString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/typeString</TokenIdentifier>
+			<Abstract type="html">The type of the IO as a string - useful for printing in debug statements</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *typeString</Declaration>
+			
+			
+			<Anchor>//api/name/typeString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/setTypeEnum:</TokenIdentifier>
+			<Abstract type="html">The type of the IO. Use the type property to get the raw type number as it received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEIOType typeEnum</Declaration>
+			
+			
+			<Anchor>//api/name/typeEnum</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/typeEnum</TokenIdentifier>
+			<Abstract type="html">The type of the IO. Use the type property to get the raw type number as it received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEIOType typeEnum</Declaration>
+			
+			
+			<Anchor>//api/name/typeEnum</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEConnectInfo/typeEnum</TokenIdentifier>
+			<Abstract type="html">The type of the IO. Use the type property to get the raw type number as it received from the device</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEIOType typeEnum</Declaration>
+			
+			
+			<Anchor>//api/name/typeEnum</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/LEConnectInfo/stringFromInputType:</TokenIdentifier>
+			<Abstract type="html">Format an LEIOType as a string - useful for printing in debug statements</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringFromInputType:(LEIOType)type</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type to format as a string</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/stringFromInputType:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEConnectInfo/isEqualToConnectInfo:</TokenIdentifier>
+			<Abstract type="html">Return YES if this connect info is equal to info.</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToConnectInfo:(LEConnectInfo *)info</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>info</Name>
+					<Abstract type="html">The connect info to check for equality with</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToConnectInfo:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

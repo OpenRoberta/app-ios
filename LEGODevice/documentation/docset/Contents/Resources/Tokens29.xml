@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEDeviceState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEDeviceState</TokenIdentifier>
+			<Abstract type="html">The connect state of the Device</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceStateDisconnectedAdvertising</TokenIdentifier>
+            <Abstract type="html">The Device is disconnected and no connection attempt is in progress</Abstract>
+            <Declaration>LEDeviceStateDisconnectedAdvertising</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceStateDisconnectedNotAdvertising</TokenIdentifier>
+            <Abstract type="html">The Device is disconnected and no longer advertising - the device also returns to this state after a successful connection has been closed</Abstract>
+            <Declaration>LEDeviceStateDisconnectedNotAdvertising</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceStateConnecting</TokenIdentifier>
+            <Abstract type="html">A connection attempt is in progress</Abstract>
+            <Declaration>LEDeviceStateConnecting</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceStateInterrogating</TokenIdentifier>
+            <Abstract type="html">Connected and interrogating Device for required services</Abstract>
+            <Declaration>LEDeviceStateInterrogating</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceStateInterrogationFinished</TokenIdentifier>
+            <Abstract type="html">Connected and interrogation complete - device is ready for use</Abstract>
+            <Declaration>LEDeviceStateInterrogationFinished</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+	</File>
+</Tokens>

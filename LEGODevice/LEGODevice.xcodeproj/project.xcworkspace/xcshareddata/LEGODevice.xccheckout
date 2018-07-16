@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DE64B7D-B625-4CDE-A5B3-7F8C2067A221</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LEGODevice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45DA91F5DF5C7FCCFFF593BA8B262F1CA48F6EF4</key>
+		<string>https://code.trifork.com/LEGO-Device-SDK</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LEGODevice/LEGODevice.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45DA91F5DF5C7FCCFFF593BA8B262F1CA48F6EF4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://code.trifork.com/LEGO-Device-SDK</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45DA91F5DF5C7FCCFFF593BA8B262F1CA48F6EF4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45DA91F5DF5C7FCCFFF593BA8B262F1CA48F6EF4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_lego_ble_sdk_git</string>
+		</dict>
+	</array>
+</dict>
+</plist>

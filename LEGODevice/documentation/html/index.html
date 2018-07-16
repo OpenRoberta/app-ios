@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>LEGO Device SDK Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">LEGO Device SDK </a></h1>
+				<a id="developerHome" href="index.html">LEGO</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">LEGO Device SDK Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">LEGO Device SDK Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p>The LEGO Device SDK is used communicate with various LEGO manufactured hardware such as sensors and motors.</p>
+
+<p>Currently the library supports only communication with hardware connected through Bluetooth LE (BLE). The SDK will help
+you scan for and connect to LEGO BLE devices. Once connected to a device the SDK will provide access to read and be notified about changes to sensor values,
+ and to send commands to various outputs (motors, piezo-tone, etc.)</p>
+
+<h2>Scanning for and Connecting to Advertising Devices</h2>
+
+<p>To scan for nearby advertising devices you use the LEDeviceManager as illustrated in the example below.</p>
+
+<pre><code>- (void)startScanningForDevices
+{
+    [[LEDeviceManager sharedConnectionManager] addDelegate:self];
+    [[LEDeviceManager sharedConnectionManager] scan];
+}
+
+#pragma mark - LEDeviceManagerDelegate
+- (void)deviceManager:(LEDeviceManager *)manager deviceDidAppear:(LEDevice *)device
+{
+    NSLog(@"Did discover device %@", device.name);
+}
+</code></pre>
+
+<p>The <a href="Protocols/LEDeviceManagerDelegate.html">LEDeviceManagerDelegate</a> will inform you whenever a new device starts or stop advertising. After a device has been discovered you can connect to it.
+Again the <a href="Protocols/LEDeviceManagerDelegate.html">LEDeviceManagerDelegate</a> will notify you once the connection is established (or if the connection fails).
+Before connecting to a device you should add a <a href="Protocols/LEDeviceDelegate.html">LEDeviceDelegate</a> to the device.
+Through this delegate you will be notified on any services (motors, sensors, etc.) offered by the device.</p>
+
+<pre><code>- (void)connectToDevice:(LEDevice *)device
+{
+    [device addDelegate:self];
+    [[LEDeviceManager sharedConnectionManager] connectToDevice:device];
+}
+
+#pragma mark - LEDeviceManagerDelegate
+- (void)deviceManager:(LEDeviceManager *)manager didFinishInterrogatingDevice:(LEDevice *)device
+{
+    NSLog(@"Did successfully connect to device: %@", device);
+}
+
+#pragma mark - LEDeviceDelegate
+- (void)device:(LEDevice *)device didAddService:(LEService *)service
+{
+    NSLog(@"Device did add service: %@", service.serviceName);
+}
+</code></pre>
+
+<h2>Read Values From a Known Input connected to the Device</h2>
+
+<p>Once connected to a <a href="Classes/LEDevice.html">LEDevice</a>, and having discovered one or more services you are ready to start read info from sensors and send commands to motors and other outputs.
+For example, to start listening to updates from a tilt sensor:</p>
+
+<pre><code>- (void)startUsingService:(LEService *)service
+{
+    if ([service isKindOfClass:[LETiltSensor class]]) {
+        LETiltSensor *tiltSensor = (LETiltSensor *) service;
+        [tiltSensor addDelegate:self];
+    }
+}
+
+#pragma mark - LETiltSensorDelegate
+- (void)tiltSensor:(LETiltSensor *)sensor didUpdateAngleFrom:(LETiltSensorAngle)oldAngle to:(LETiltSensorAngle)newAngle
+{
+    NSLog(@"Tilt sensor changed angle to %f, %f", newAngle.x, newAngle.y);
+}
+</code></pre>
+
+<h2>Communicate with a Generic Input connected to the Device</h2>
+
+<p>If a service is an instance of the class LEGenericService this means that the IO type in unkown to the SDK.
+As opposed to the known service types (tilt, motion, etc) a generic service does not have a predefined <a href="Classes/LEService.html#//api/name/defaultInputFormat">[LEService defaultInputFormat]</a>
+and therefore an LEInputFormat is not automatically send to the LEDevice. This means that per default no data is send from the
+device to the SDK when the IO reads a new data value. To use a LEGenericService to receive data updated from a sensor unkown to the SDK you
+must create and send an LEInputFormat to the device. Find inspiration in one of the concrete service classes for this, like the LEMotionSensor
+or LEVoltageSensor.</p>
+
+<p>Also see the documentation of the LEGenericService class for an example on how to configure and use an IO unkown to the SDK.</p>
+
+<h2>Getting Debug and Error log from the LEGO Device SDK</h2>
+
+<p>You should insert the following code snippet in your AppDelegate application:didFinishLaunchingWithOptions method.</p>
+
+<pre><code>#ifdef DEBUG
+    [LELogger defaultLogger].logLevel = LELoggerLevelDebug;
+#else
+    [LELogger defaultLogger].logLevel = LELoggerLevelWarn;
+#endif
+</code></pre>
+
+<p>It is also possible to redirect the LEDevice log statement to another destination, for example an online logging
+service or a (debug) text view in your app. You can do this by creating a class that implements the LELogWriter protocol
+and set the <a href="Classes/LELogger.html#//api/name/logWriter">[LELogger logWriter]</a> property.</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/LEConnectInfo.html">LEConnectInfo</a></li>
+							
+							<li><a href="Classes/LECurrentSensor.html">LECurrentSensor</a></li>
+							
+							<li><a href="Classes/LEDataFormat.html">LEDataFormat</a></li>
+							
+							<li><a href="Classes/LEDevice.html">LEDevice</a></li>
+							
+							<li><a href="Classes/LEDeviceInfo.html">LEDeviceInfo</a></li>
+							
+							<li><a href="Classes/LEDeviceManager.html">LEDeviceManager</a></li>
+							
+							<li><a href="Classes/LEGenericService.html">LEGenericService</a></li>
+							
+							<li><a href="Classes/LEInputFormat.html">LEInputFormat</a></li>
+							
+							<li><a href="Classes/LELogger.html">LELogger</a></li>
+							
+							<li><a href="Classes/LEMotionSensor.html">LEMotionSensor</a></li>
+							
+							<li><a href="Classes/LEMotor.html">LEMotor</a></li>
+							
+							<li><a href="Classes/LEPiezoTonePlayer.html">LEPiezoTonePlayer</a></li>
+							
+							<li><a href="Classes/LERGBLight.html">LERGBLight</a></li>
+							
+							<li><a href="Classes/LERevision.html">LERevision</a></li>
+							
+							<li><a href="Classes/LEService.html">LEService</a></li>
+							
+							<li><a href="Classes/LETiltSensor.html">LETiltSensor</a></li>
+							
+							<li><a href="Classes/LEVoltageSensor.html">LEVoltageSensor</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/LECurrentSensorDelegate.html">LECurrentSensorDelegate</a></li>
+							
+							<li><a href="Protocols/LEDeviceDelegate.html">LEDeviceDelegate</a></li>
+							
+							<li><a href="Protocols/LEDeviceManagerDelegate.html">LEDeviceManagerDelegate</a></li>
+							
+							<li><a href="Protocols/LELogWriter.html">LELogWriter</a></li>
+							
+							<li><a href="Protocols/LEMotionSensorDelegate.html">LEMotionSensorDelegate</a></li>
+							
+							<li><a href="Protocols/LERGBLightDelegate.html">LERGBLightDelegate</a></li>
+							
+							<li><a href="Protocols/LEServiceDelegate.html">LEServiceDelegate</a></li>
+							
+							<li><a href="Protocols/LETiltSensorDelegate.html">LETiltSensorDelegate</a></li>
+							
+							<li><a href="Protocols/LEVoltageSensorDelegate.html">LEVoltageSensorDelegate</a></li>
+							
+						</ul>
+						
+                        
+						<h2 class="index-title">Constant References</h2>
+						<ul>
+                        
+                        <li><a href="Constants/LEDeviceCategory.html">LEDeviceCategory</a></li>
+                        
+                        <li><a href="Constants/LEDeviceFunction.html">LEDeviceFunction</a></li>
+                        
+                        <li><a href="Constants/LEDeviceState.html">LEDeviceState</a></li>
+                        
+                        <li><a href="Constants/LEIOType.html">LEIOType</a></li>
+                        
+                        <li><a href="Constants/LEInputFormatUnit.html">LEInputFormatUnit</a></li>
+                        
+                        <li><a href="Constants/LELoggerLevel.html">LELoggerLevel</a></li>
+                        
+                        <li><a href="Constants/LEMotionSensorMode.html">LEMotionSensorMode</a></li>
+                        
+                        <li><a href="Constants/LEMotorDirection.html">LEMotorDirection</a></li>
+                        
+                        <li><a href="Constants/LEPiezoTonePlayerNote.html">LEPiezoTonePlayerNote</a></li>
+                        
+                        <li><a href="Constants/LETiltSensorDirection.html">LETiltSensorDirection</a></li>
+                        
+                        <li><a href="Constants/LETiltSensorMode.html">LETiltSensorMode</a></li>
+                        
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 LEGO. All rights reserved. (Last updated: 2015-06-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>LEIOType Constants Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LEGO Device SDK </a></h1>
+				<a id="developerHome" href="../index.html">LEGO</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">LEIOType Constants Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="LEIOType Constants Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">LEIOType Constants Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">LEConnectInfo.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					
+                    
+                    
+                    <h3 class="subsubtitle method-title">LEIOType</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>Represent the type of an attached IO (motor, sensor, etc).</p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(uint8_t, LEIOType ) {<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeMotor</a> = 1,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeVoltage</a> = 20,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeCurrent</a> = 21,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypePiezoTone</a> = 22,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeRGBLight</a> = 23,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeTiltSensor</a> = 34,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeMotionSensor</a> = 35,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">LEIOTypeGeneric</a>,<br/>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="LEIOTypeMotor"></a><code>LEIOTypeMotor</code></dt>
+<dd>
+
+
+<p>A Motor - use the <a href="../Classes/LEMotor.html">LEMotor</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeVoltage"></a><code>LEIOTypeVoltage</code></dt>
+<dd>
+
+
+<p>A Voltage Sensor - use the <a href="../Classes/LEVoltageSensor.html">LEVoltageSensor</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeCurrent"></a><code>LEIOTypeCurrent</code></dt>
+<dd>
+
+
+<p>A Current Sensor - use the <a href="../Classes/LECurrentSensor.html">LECurrentSensor</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypePiezoTone"></a><code>LEIOTypePiezoTone</code></dt>
+<dd>
+
+
+<p>A Piezo Tone player - use the <a href="../Classes/LEPiezoTonePlayer.html">LEPiezoTonePlayer</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeRGBLight"></a><code>LEIOTypeRGBLight</code></dt>
+<dd>
+
+
+<p>An RGB light - use the <a href="../Classes/LERGBLight.html">LERGBLight</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeTiltSensor"></a><code>LEIOTypeTiltSensor</code></dt>
+<dd>
+
+
+<p>A Tilt Sensor - use the <a href="../Classes/LETiltSensor.html">LETiltSensor</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeMotionSensor"></a><code>LEIOTypeMotionSensor</code></dt>
+<dd>
+
+
+<p>A Motion Sensor (aka. Detect Sensor) - use the <a href="../Classes/LEMotionSensor.html">LEMotionSensor</a> to communicate with this type of IO</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="LEIOTypeGeneric"></a><code>LEIOTypeGeneric</code></dt>
+<dd>
+
+
+<p>A type unknown to the SDK - use the <a href="../Classes/LEGenericService.html">LEGenericService</a> to communicate with this type of IO.</p>
+
+    
+
+    
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">LEConnectInfo.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <code class="declared-in-ref">LEConnectInfo.h</code><br />
+                    </div>				
+                    
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 LEGO. All rights reserved. (Last updated: 2015-06-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--project-name</key>
+	<string>LEGO Device SDK</string>
+	<key>--project-company</key>
+	<string>LEGO</string>
+	<key>--company-id</key>
+	<string>com.lego</string>
+	<key>--ignore</key>
+	<array>
+		<string>Private/</string>
+		<string>*.m</string>
+		<string>Private/</string>
+		<string>*-project.*</string>	
+	</array>	
+	<key>--create-docset</key>
+	<true/>
+	<key>--install-docset</key>
+	<true />
+	<key>--verbose</key>
+	<string>4</string>	
+	<key>--logformat</key>
+	<string>xcode</string>
+	<key>--output</key>
+	<string>documentation</string>
+	<key>--index-desc</key>
+	<string>readme.markdown</string>
+	<key>no-warn-invalid-crossref</key>
+	<true />
+	<key>keep-intermediate-files</key>
+	<true />	
+</dict>
+</plist>

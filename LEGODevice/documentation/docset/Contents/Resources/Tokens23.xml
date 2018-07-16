@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LERGBLightDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LERGBLightDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified when the LERGBLight updates its value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LERGBLightDelegate/rgbLight:didUpdateColorFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the LERGBLight service receives an updated value
+Will only be invoked when the RGB light is is mode LERGBModeAbsolute</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>- (void)rgbLight:(LERGBLight *)rgbLight didUpdateColorFrom:(CIColor *)oldColor to:(CIColor *)newColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rgbLight</Name>
+					<Abstract type="html">The RGB light</Abstract>
+				</Parameter><Parameter>
+					<Name>oldColor</Name>
+					<Abstract type="html">The previous color</Abstract>
+				</Parameter><Parameter>
+					<Name>newColor</Name>
+					<Abstract type="html">The new color</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rgbLight:didUpdateColorFrom:to:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LERGBLightDelegate/rgbLight:didUpdateColorIndexFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the LERGBLight service receives an updated color index
+Will only be invoked when the RGB light is is mode LERGBModeDiscrete</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>- (void)rgbLight:(LERGBLight *)rgbLight didUpdateColorIndexFrom:(NSUInteger)oldColorIndex to:(NSUInteger)newColorIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rgbLight</Name>
+					<Abstract type="html">The RGB light</Abstract>
+				</Parameter><Parameter>
+					<Name>oldColorIndex</Name>
+					<Abstract type="html">The previous color index</Abstract>
+				</Parameter><Parameter>
+					<Name>newColorIndex</Name>
+					<Abstract type="html">The new color index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rgbLight:didUpdateColorIndexFrom:to:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

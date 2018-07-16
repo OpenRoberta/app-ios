@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEPiezoTonePlayer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEPiezoTonePlayer</TokenIdentifier>
+			<Abstract type="html">This service allows for playing of tones at a given frequency</Abstract>
+			<DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEPiezoTonePlayer/playFrequency:forMilliseconds:</TokenIdentifier>
+			<Abstract type="html">Play a frequency for the given duration in ms</Abstract>
+			<DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+			
+			<Declaration>- (void)playFrequency:(NSUInteger)frequency forMilliseconds:(NSUInteger)ms</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frequency</Name>
+					<Abstract type="html">The frequency to play (max allowed frequency is 1500)</Abstract>
+				</Parameter><Parameter>
+					<Name>ms</Name>
+					<Abstract type="html">The duration to play (max supported is 65536 milliseconds).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playFrequency:forMilliseconds:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEPiezoTonePlayer/playNote:octave:forMilliSeconds:</TokenIdentifier>
+			<Abstract type="html">Play a note.
+The highest supported note is F# in 6th octave</Abstract>
+			<DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+			
+			<Declaration>- (void)playNote:(LEPiezoTonePlayerNote)note octave:(NSUInteger)octave forMilliSeconds:(NSUInteger)ms</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>note</Name>
+					<Abstract type="html">The note to play</Abstract>
+				</Parameter><Parameter>
+					<Name>octave</Name>
+					<Abstract type="html">The octave in which to play the note</Abstract>
+				</Parameter><Parameter>
+					<Name>ms</Name>
+					<Abstract type="html">The duration to play (max supported is 65536 milliseconds).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playNote:octave:forMilliSeconds:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEPiezoTonePlayer/stopPlaying</TokenIdentifier>
+			<Abstract type="html">Stop playing any currently playing tone.</Abstract>
+			<DeclaredIn>LEPiezoTonePlayer.h</DeclaredIn>
+			
+			<Declaration>- (void)stopPlaying</Declaration>
+			
+			
+			<Anchor>//api/name/stopPlaying</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

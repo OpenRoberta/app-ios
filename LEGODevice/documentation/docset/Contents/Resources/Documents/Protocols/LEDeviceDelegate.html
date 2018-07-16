@@ -1,0 +1,817 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>LEDeviceDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LEGO Device SDK </a></h1>
+				<a id="developerHome" href="../index.html">LEGO</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">LEDeviceDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/device:didAddService:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didAddService:</option>
+	
+	<option value="//api/name/device:didChangeButtonState:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didChangeButtonState:</option>
+	
+	<option value="//api/name/device:didChangeNameFrom:to:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didChangeNameFrom:to:</option>
+	
+	<option value="//api/name/device:didFailToAddServiceWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didFailToAddServiceWithError:</option>
+	
+	<option value="//api/name/device:didRemoveService:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didRemoveService:</option>
+	
+	<option value="//api/name/device:didUpdateBatteryLevel:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didUpdateBatteryLevel:</option>
+	
+	<option value="//api/name/device:didUpdateDeviceInfo:error:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didUpdateDeviceInfo:error:</option>
+	
+	<option value="//api/name/device:didUpdateLowVoltageState:">&nbsp;&nbsp;&nbsp;&nbsp;- device:didUpdateLowVoltageState:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Monitoring changes to device attributes">Monitoring changes to device attributes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Monitoring changes to attached motors, sensors and other services">Monitoring changes to attached motors, sensors and other services</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didAddService:">device:didAddService:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didChangeButtonState:">device:didChangeButtonState:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didChangeNameFrom:to:">device:didChangeNameFrom:to:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didFailToAddServiceWithError:">device:didFailToAddServiceWithError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didRemoveService:">device:didRemoveService:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didUpdateBatteryLevel:">device:didUpdateBatteryLevel:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didUpdateDeviceInfo:error:">device:didUpdateDeviceInfo:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/device:didUpdateLowVoltageState:">device:didUpdateLowVoltageState:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="LEDeviceDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">LEDeviceDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">LEDevice.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Implement this protocol to be notified about changes to the attributes of the device.
+The delegate will notify you when an IO such as a motor or sensor is attached or detached from the Device.
+The delegate will also notify about changes to the device name, battery level and the connect-button state (pressed/released).</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Monitoring changes to device attributes" name="task_Monitoring changes to device attributes"></a>
+						<h3 class="subsubtitle task-title">Monitoring changes to device attributes</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didUpdateDeviceInfo:error:">&ndash;&nbsp;device:didUpdateDeviceInfo:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didChangeNameFrom:to:">&ndash;&nbsp;device:didChangeNameFrom:to:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didChangeButtonState:">&ndash;&nbsp;device:didChangeButtonState:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didUpdateBatteryLevel:">&ndash;&nbsp;device:didUpdateBatteryLevel:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didUpdateLowVoltageState:">&ndash;&nbsp;device:didUpdateLowVoltageState:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Monitoring changes to attached motors, sensors and other services" name="task_Monitoring changes to attached motors, sensors and other services"></a>
+						<h3 class="subsubtitle task-title">Monitoring changes to attached motors, sensors and other services</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didAddService:">&ndash;&nbsp;device:didAddService:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didRemoveService:">&ndash;&nbsp;device:didRemoveService:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/device:didFailToAddServiceWithError:">&ndash;&nbsp;device:didFailToAddServiceWithError:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didAddService:" title="device:didAddService:"></a>
+	<h3 class="subsubtitle method-title">device:didAddService:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when the a new motor, sensor or other service is attached to the device (Hub).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didAddService:(LEService *)<em>service</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>service</em></dt>
+			<dd><p>The attached service</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when the a new motor, sensor or other service is attached to the device (Hub).</p>
+
+<p>Before using the <a href="../Classes/LEService.html">LEService</a> you may check whether the <a href="../Classes/LEService.html">LEService</a> is an instance of
+one of the known service types, such as <a href="../Classes/LEMotor.html">LEMotor</a>, <a href="../Classes/LETiltSensor.html">LETiltSensor</a> or <a href="../Classes/LEMotionSensor.html">LEMotionSensor</a> just to mention a few.
+This will allow you to use a &lsquo;safer&rsquo; and more convenient interface to address the underlying IO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didChangeButtonState:" title="device:didChangeButtonState:"></a>
+	<h3 class="subsubtitle method-title">device:didChangeButtonState:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when the user press or release the connect-button on the device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didChangeButtonState:(BOOL)<em>pressed</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>pressed</em></dt>
+			<dd><p>YES if the button is pressed, NO otherwise.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when the user press or release the connect-button on the device</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didChangeNameFrom:to:" title="device:didChangeNameFrom:to:"></a>
+	<h3 class="subsubtitle method-title">device:didChangeNameFrom:to:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked if the device sends an updated device name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didChangeNameFrom:(NSString *)<em>oldName</em> to:(NSString *)<em>newName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>oldName</em></dt>
+			<dd><p>The previous name of the device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newName</em></dt>
+			<dd><p>The new name of the device</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked if the device sends an updated device name.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didFailToAddServiceWithError:" title="device:didFailToAddServiceWithError:"></a>
+	<h3 class="subsubtitle method-title">device:didFailToAddServiceWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when an update from the device about attached services (sensor, motors, etc) could not
+be understood.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didFailToAddServiceWithError:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>The cause of the failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when an update from the device about attached services (sensor, motors, etc) could not
+be understood.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didRemoveService:" title="device:didRemoveService:"></a>
+	<h3 class="subsubtitle method-title">device:didRemoveService:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when a new motor, sensor or other service is detached from the device (Hub).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didRemoveService:(LEService *)<em>service</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>service</em></dt>
+			<dd><p>The detached service</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when a new motor, sensor or other service is detached from the device (Hub).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didUpdateBatteryLevel:" title="device:didUpdateBatteryLevel:"></a>
+	<h3 class="subsubtitle method-title">device:didUpdateBatteryLevel:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when a device sends an updated battery level.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didUpdateBatteryLevel:(NSNumber *)<em>newLevel</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newLevel</em></dt>
+			<dd><p>The new battery level as a number between 0 and 100.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when a device sends an updated battery level.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didUpdateDeviceInfo:error:" title="device:didUpdateDeviceInfo:error:"></a>
+	<h3 class="subsubtitle method-title">device:didUpdateDeviceInfo:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when a new <a href="../Classes/LEDeviceInfo.html">LEDeviceInfo</a> with info about the software and firmware revision is received from the device.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didUpdateDeviceInfo:(LEDeviceInfo *)<em>deviceInfo</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deviceInfo</em></dt>
+			<dd><p>Info about software and firmware revision of the device</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>If an error occurred, the cause of the failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when a new <a href="../Classes/LEDeviceInfo.html">LEDeviceInfo</a> with info about the software and firmware revision is received from the device.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/device:didUpdateLowVoltageState:" title="device:didUpdateLowVoltageState:"></a>
+	<h3 class="subsubtitle method-title">device:didUpdateLowVoltageState:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Invoked when a device sends a low voltage notification.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)device:(LEDevice *)<em>device</em> didUpdateLowVoltageState:(BOOL)<em>lowVoltage</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>device</em></dt>
+			<dd><p>The device.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lowVoltage</em></dt>
+			<dd><p>YES if the battery has &lsquo;low voltage&rsquo;, false otherwise.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Invoked when a device sends a low voltage notification.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">LEDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 LEGO. All rights reserved. (Last updated: 2015-06-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

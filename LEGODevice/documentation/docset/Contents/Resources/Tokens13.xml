@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LERGBLight.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LERGBLight</TokenIdentifier>
+			<Abstract type="html">This service allows for setting the colour of the RGB light on the device</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setAbsoluteModeIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the Absolute mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t absoluteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/absoluteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/absoluteModeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the Absolute mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t absoluteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/absoluteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/absoluteModeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the Absolute mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t absoluteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/absoluteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setDiscreteModeIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the Discrete mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t discreteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/discreteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/discreteModeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the Discrete mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t discreteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/discreteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/discreteModeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the Discrete mode</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t discreteModeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/discreteModeIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setRgbMode:</TokenIdentifier>
+			<Abstract type="html">The current mode of the RGB</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) uint8_t rgbMode</Declaration>
+			
+			
+			<Anchor>//api/name/rgbMode</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/rgbMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the RGB</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) uint8_t rgbMode</Declaration>
+			
+			
+			<Anchor>//api/name/rgbMode</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/rgbMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the RGB</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) uint8_t rgbMode</Declaration>
+			
+			
+			<Anchor>//api/name/rgbMode</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/switchToDefaultColor</TokenIdentifier>
+			<Abstract type="html">Switch to the default Color (i.e. the same color as the device has right after a successful connection has been established)</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>- (void)switchToDefaultColor</Declaration>
+			
+			
+			<Anchor>//api/name/switchToDefaultColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setDefaultColor:</TokenIdentifier>
+			<Abstract type="html">The default color of the RGB, when in mode LERGBModeAbsolute</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CIColor *defaultColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/defaultColor</TokenIdentifier>
+			<Abstract type="html">The default color of the RGB, when in mode LERGBModeAbsolute</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CIColor *defaultColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/defaultColor</TokenIdentifier>
+			<Abstract type="html">The default color of the RGB, when in mode LERGBModeAbsolute</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CIColor *defaultColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setDefaultColorIndex:</TokenIdentifier>
+			<Abstract type="html">The default color index of the RGB, when in mode LERGBModeDiscrete</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger defaultColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/defaultColorIndex</TokenIdentifier>
+			<Abstract type="html">The default color index of the RGB, when in mode LERGBModeDiscrete</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger defaultColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/defaultColorIndex</TokenIdentifier>
+			<Abstract type="html">The default color index of the RGB, when in mode LERGBModeDiscrete</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger defaultColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/defaultColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/switchOff</TokenIdentifier>
+			<Abstract type="html">Switch off the RGB light on the device</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>- (void)switchOff</Declaration>
+			
+			
+			<Anchor>//api/name/switchOff</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setColor:</TokenIdentifier>
+			<Abstract type="html">The color of the RGB light on the device.</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/color</TokenIdentifier>
+			<Abstract type="html">The color of the RGB light on the device.</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/color</TokenIdentifier>
+			<Abstract type="html">The color of the RGB light on the device.</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setOldColor:</TokenIdentifier>
+			<Abstract type="html">The old color of the RGB light on the device - needed in order for the color value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *oldColor</Declaration>
+			
+			
+			<Anchor>//api/name/oldColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/oldColor</TokenIdentifier>
+			<Abstract type="html">The old color of the RGB light on the device - needed in order for the color value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *oldColor</Declaration>
+			
+			
+			<Anchor>//api/name/oldColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/oldColor</TokenIdentifier>
+			<Abstract type="html">The old color of the RGB light on the device - needed in order for the color value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CIColor *oldColor</Declaration>
+			
+			
+			<Anchor>//api/name/oldColor</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setColorIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the currently selected color</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger colorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/colorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/colorIndex</TokenIdentifier>
+			<Abstract type="html">The index of the currently selected color</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger colorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/colorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/colorIndex</TokenIdentifier>
+			<Abstract type="html">The index of the currently selected color</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger colorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/colorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/setOldColorIndex:</TokenIdentifier>
+			<Abstract type="html">The old color index of the RGB light on the device - needed in order for the color index value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger oldColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/oldColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LERGBLight/oldColorIndex</TokenIdentifier>
+			<Abstract type="html">The old color index of the RGB light on the device - needed in order for the color index value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger oldColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/oldColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LERGBLight/oldColorIndex</TokenIdentifier>
+			<Abstract type="html">The old color index of the RGB light on the device - needed in order for the color index value to reflect the latest value</Abstract>
+			<DeclaredIn>LERGBLight.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger oldColorIndex</Declaration>
+			
+			
+			<Anchor>//api/name/oldColorIndex</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

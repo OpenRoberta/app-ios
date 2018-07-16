@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LETiltSensor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LETiltSensor</TokenIdentifier>
+			<Abstract type="html">This service provides readings from a tilt sensor.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/setDirection:</TokenIdentifier>
+			<Abstract type="html">The most recent direction reading from the sensor.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/direction</TokenIdentifier>
+			<Abstract type="html">The most recent direction reading from the sensor.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LETiltSensor/direction</TokenIdentifier>
+			<Abstract type="html">The most recent direction reading from the sensor.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/setAngle:</TokenIdentifier>
+			<Abstract type="html">The most recent angle reading from the sensor. The angle represents the angle the sensor is tilted in the x, y and zdirection.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorAngle angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/angle</TokenIdentifier>
+			<Abstract type="html">The most recent angle reading from the sensor. The angle represents the angle the sensor is tilted in the x, y and zdirection.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorAngle angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LETiltSensor/angle</TokenIdentifier>
+			<Abstract type="html">The most recent angle reading from the sensor. The angle represents the angle the sensor is tilted in the x, y and zdirection.</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorAngle angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/setCrash:</TokenIdentifier>
+			<Abstract type="html">The most recent crash reading from the sensor. The value represents the number of times the sensor has been &apos;bumped&apos; in
+the x, y, and z-direction. The value can be reset by sending the [LEService sendResetStateRequest].</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorCrash crash</Declaration>
+			
+			
+			<Anchor>//api/name/crash</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/crash</TokenIdentifier>
+			<Abstract type="html">The most recent crash reading from the sensor. The value represents the number of times the sensor has been &apos;bumped&apos; in
+the x, y, and z-direction. The value can be reset by sending the [LEService sendResetStateRequest].</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorCrash crash</Declaration>
+			
+			
+			<Anchor>//api/name/crash</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LETiltSensor/crash</TokenIdentifier>
+			<Abstract type="html">The most recent crash reading from the sensor. The value represents the number of times the sensor has been &apos;bumped&apos; in
+the x, y, and z-direction. The value can be reset by sending the [LEService sendResetStateRequest].</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LETiltSensorCrash crash</Declaration>
+			
+			
+			<Anchor>//api/name/crash</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/setTiltSensorMode:</TokenIdentifier>
+			<Abstract type="html">The current mode of the tilt sensor</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LETiltSensorMode tiltSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/tiltSensorMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LETiltSensor/tiltSensorMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the tilt sensor</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LETiltSensorMode tiltSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/tiltSensorMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LETiltSensor/tiltSensorMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the tilt sensor</Abstract>
+			<DeclaredIn>LETiltSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LETiltSensorMode tiltSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/tiltSensorMode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

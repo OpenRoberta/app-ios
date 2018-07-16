@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEMotionSensor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEMotionSensor</TokenIdentifier>
+			<Abstract type="html">This service provides readings from an motion sensor (aka. detect sensor).</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/setDistance:</TokenIdentifier>
+			<Abstract type="html">The most recent distance reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/distance</TokenIdentifier>
+			<Abstract type="html">The most recent distance reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotionSensor/distance</TokenIdentifier>
+			<Abstract type="html">The most recent distance reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/setCount:</TokenIdentifier>
+			<Abstract type="html">The most recent count reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/count</TokenIdentifier>
+			<Abstract type="html">The most recent count reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotionSensor/count</TokenIdentifier>
+			<Abstract type="html">The most recent count reading from the sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/setMotionSensorMode:</TokenIdentifier>
+			<Abstract type="html">The current mode of the motion sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LEMotionSensorMode motionSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/motionSensorMode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotionSensor/motionSensorMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the motion sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LEMotionSensorMode motionSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/motionSensorMode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotionSensor/motionSensorMode</TokenIdentifier>
+			<Abstract type="html">The current mode of the motion sensor</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) LEMotionSensorMode motionSensorMode</Declaration>
+			
+			
+			<Anchor>//api/name/motionSensorMode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

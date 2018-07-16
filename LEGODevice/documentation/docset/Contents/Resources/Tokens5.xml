@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEDeviceInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEDeviceInfo</TokenIdentifier>
+			<Abstract type="html">Represent info about a connected LEDevice such as firmware-, hardware- and software revision.</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/setFirmwareRevision:</TokenIdentifier>
+			<Abstract type="html">The firmware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/firmwareRevision</TokenIdentifier>
+			<Abstract type="html">The firmware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceInfo/firmwareRevision</TokenIdentifier>
+			<Abstract type="html">The firmware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *firmwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/setHardwareRevision:</TokenIdentifier>
+			<Abstract type="html">The hardware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/hardwareRevision</TokenIdentifier>
+			<Abstract type="html">The hardware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceInfo/hardwareRevision</TokenIdentifier>
+			<Abstract type="html">The hardware revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *hardwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/setSoftwareRevision:</TokenIdentifier>
+			<Abstract type="html">The software revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *softwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/softwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/softwareRevision</TokenIdentifier>
+			<Abstract type="html">The software revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *softwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/softwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceInfo/softwareRevision</TokenIdentifier>
+			<Abstract type="html">The software revision of a LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LERevision *softwareRevision</Declaration>
+			
+			
+			<Anchor>//api/name/softwareRevision</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/setManufacturerName:</TokenIdentifier>
+			<Abstract type="html">The manufacturer name of the LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturerName</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturerName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/manufacturerName</TokenIdentifier>
+			<Abstract type="html">The manufacturer name of the LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturerName</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturerName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEDeviceInfo/manufacturerName</TokenIdentifier>
+			<Abstract type="html">The manufacturer name of the LEDevice</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturerName</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturerName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEDeviceInfo/isEqualToInfo:</TokenIdentifier>
+			<Abstract type="html">Return YES if this device info is equal to info</Abstract>
+			<DeclaredIn>LEDeviceInfo.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToInfo:(LEDeviceInfo *)info</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>info</Name>
+					<Abstract type="html">The device info to check for equality with</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToInfo:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

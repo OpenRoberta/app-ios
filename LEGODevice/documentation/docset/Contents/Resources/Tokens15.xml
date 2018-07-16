@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEService</TokenIdentifier>
+			<Abstract type="html">  An LEService represent an IO of some kind, for example a motor or sensor. It could also be an internal IO, such as Voltage sensor build into the device.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setConnectInfo:</TokenIdentifier>
+			<Abstract type="html">General info about the connected service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEConnectInfo *connectInfo</Declaration>
+			
+			
+			<Anchor>//api/name/connectInfo</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/connectInfo</TokenIdentifier>
+			<Abstract type="html">General info about the connected service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEConnectInfo *connectInfo</Declaration>
+			
+			
+			<Anchor>//api/name/connectInfo</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/connectInfo</TokenIdentifier>
+			<Abstract type="html">General info about the connected service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEConnectInfo *connectInfo</Declaration>
+			
+			
+			<Anchor>//api/name/connectInfo</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setDevice:</TokenIdentifier>
+			<Abstract type="html">The Device this service is related to</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) LEDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/device</TokenIdentifier>
+			<Abstract type="html">The Device this service is related to</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) LEDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/device</TokenIdentifier>
+			<Abstract type="html">The Device this service is related to</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) LEDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setIsInternalService:</TokenIdentifier>
+			<Abstract type="html">Is YES if this service represents an internal IO, such as an LEVoltageSensor</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInternalService</Declaration>
+			
+			
+			<Anchor>//api/name/isInternalService</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/isInternalService</TokenIdentifier>
+			<Abstract type="html">Is YES if this service represents an internal IO, such as an LEVoltageSensor</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInternalService</Declaration>
+			
+			
+			<Anchor>//api/name/isInternalService</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/isInternalService</TokenIdentifier>
+			<Abstract type="html">Is YES if this service represents an internal IO, such as an LEVoltageSensor</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInternalService</Declaration>
+			
+			
+			<Anchor>//api/name/isInternalService</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setServiceName:</TokenIdentifier>
+			<Abstract type="html">The name of the service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/serviceName</TokenIdentifier>
+			<Abstract type="html">The name of the service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/serviceName</TokenIdentifier>
+			<Abstract type="html">The name of the service</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setDefaultInputFormat:</TokenIdentifier>
+			<Abstract type="html">  The default input format that will be uploaded to the device for this service upon discovery of the service.
+  Only the known service types (LEMotor, LETiltSensor, etc.) has a default input format.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *defaultInputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/defaultInputFormat</TokenIdentifier>
+			<Abstract type="html">  The default input format that will be uploaded to the device for this service upon discovery of the service.
+  Only the known service types (LEMotor, LETiltSensor, etc.) has a default input format.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *defaultInputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/defaultInputFormat</TokenIdentifier>
+			<Abstract type="html">  The default input format that will be uploaded to the device for this service upon discovery of the service.
+  Only the known service types (LEMotor, LETiltSensor, etc.) has a default input format.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *defaultInputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/defaultInputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setInputFormat:</TokenIdentifier>
+			<Abstract type="html">The current input format for this service.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *inputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/inputFormat</TokenIdentifier>
+			<Abstract type="html">The current input format for this service.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *inputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/inputFormat</TokenIdentifier>
+			<Abstract type="html">The current input format for this service.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormat *inputFormat</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setInputFormatMode:</TokenIdentifier>
+			<Abstract type="html">Convenience method that will return the mode of the current inputFormat.
+If no inputFormat is set, it will return the mode of the defaultInputFormat.
+If no inputFormat or defaultInputFormat is set, it will return mode 0.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t inputFormatMode</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormatMode</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/inputFormatMode</TokenIdentifier>
+			<Abstract type="html">Convenience method that will return the mode of the current inputFormat.
+If no inputFormat is set, it will return the mode of the defaultInputFormat.
+If no inputFormat or defaultInputFormat is set, it will return mode 0.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t inputFormatMode</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormatMode</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/inputFormatMode</TokenIdentifier>
+			<Abstract type="html">Convenience method that will return the mode of the current inputFormat.
+If no inputFormat is set, it will return the mode of the defaultInputFormat.
+If no inputFormat or defaultInputFormat is set, it will return mode 0.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t inputFormatMode</Declaration>
+			
+			
+			<Anchor>//api/name/inputFormatMode</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/updateInputFormat:</TokenIdentifier>
+			<Abstract type="html">Send an updated input format for this service to the device.
+If successful this will trigger an invocation of the delegate callback method [LEServiceDelegate service:didUpdateInputFormatFrom:to].</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)updateInputFormat:(LEInputFormat *)newFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newFormat</Name>
+					<Abstract type="html">The input format to send to the device.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateInputFormat:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/updateCurrentInputFormatWithNewMode:</TokenIdentifier>
+			<Abstract type="html">Send and updated input format with newMode for this service to the device.
+If no current inputFormat is set, the message will be based on the defaultInputFormat of this service.
+If no defaultInputFormat is set, the call to this method is ignored.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)updateCurrentInputFormatWithNewMode:(uint8_t)newMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newMode</Name>
+					<Abstract type="html">The input new service mode</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateCurrentInputFormatWithNewMode:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setValidDataFormats:</TokenIdentifier>
+			<Abstract type="html">The data formats that this service may use to parse received data.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSSet *validDataFormats</Declaration>
+			
+			
+			<Anchor>//api/name/validDataFormats</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/validDataFormats</TokenIdentifier>
+			<Abstract type="html">The data formats that this service may use to parse received data.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSSet *validDataFormats</Declaration>
+			
+			
+			<Anchor>//api/name/validDataFormats</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/validDataFormats</TokenIdentifier>
+			<Abstract type="html">The data formats that this service may use to parse received data.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSSet *validDataFormats</Declaration>
+			
+			
+			<Anchor>//api/name/validDataFormats</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/addValidDataFormat:</TokenIdentifier>
+			<Abstract type="html">Add a new valid data format.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/LEService/validDataFormats</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addValidDataFormat:(LEDataFormat *)dataFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataFormat</Name>
+					<Abstract type="html">The data format to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addValidDataFormat:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/removeValidDataFormat:</TokenIdentifier>
+			<Abstract type="html">Remove a valid data format</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/LEService/validDataFormats</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeValidDataFormat:(LEDataFormat *)dataFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataFormat</Name>
+					<Abstract type="html">The data format to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeValidDataFormat:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setValueData:</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as raw data</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *valueData</Declaration>
+			
+			
+			<Anchor>//api/name/valueData</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/valueData</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as raw data</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *valueData</Declaration>
+			
+			
+			<Anchor>//api/name/valueData</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/valueData</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as raw data</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *valueData</Declaration>
+			
+			
+			<Anchor>//api/name/valueData</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setValueAsInteger:</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int32_t valueAsInteger</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsInteger</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/valueAsInteger</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int32_t valueAsInteger</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsInteger</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/valueAsInteger</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int32_t valueAsInteger</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsInteger</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/setValueAsFloat:</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) Float32 valueAsFloat</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsFloat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/valueAsFloat</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) Float32 valueAsFloat</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsFloat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEService/valueAsFloat</TokenIdentifier>
+			<Abstract type="html">The latest received value from the service as an integer.
+If no valid data format is found to parse the data zero is returned, see validDataFormats.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) Float32 valueAsFloat</Declaration>
+			
+			
+			<Anchor>//api/name/valueAsFloat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/sendReadValueRequest</TokenIdentifier>
+			<Abstract type="html">If the notifications is disabled for the service in the inputFormat through [LEInputFormat notificationsEnabled]
+you will have to use this method to request an updated value for the service.
+The updated value will be delivered through the delegate method [LEServiceDelegate service:didUpdateValueDataFrom:to:].</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)sendReadValueRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendReadValueRequest</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/sendResetStateRequest</TokenIdentifier>
+			<Abstract type="html">This will send a reset command to the Device for this service. Some services has state,
+such as a bump-count for a tilt sensor that you may wish to reset.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)sendResetStateRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendResetStateRequest</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/writeData:</TokenIdentifier>
+			<Abstract type="html">Will send data to the IO backed by this service. Useful to write data to an output unknown to the SDK.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)writeData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to write.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/writeData:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/addDelegate:</TokenIdentifier>
+			<Abstract type="html">Add a delegate to receive service updates.</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)addDelegate:(id&lt;LEServiceDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to add</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addDelegate:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/removeDelegate:</TokenIdentifier>
+			<Abstract type="html">Remove a delegate</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (void)removeDelegate:(id&lt;LEServiceDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The delegate to remove</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeDelegate:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEService/isEqualToService:</TokenIdentifier>
+			<Abstract type="html">Returns YES if this service is equal to otherService - two services are considered equal if their connectInfo are equal</Abstract>
+			<DeclaredIn>LEService.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToService:(LEService *)otherService</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherService</Name>
+					<Abstract type="html">The service to be compared to the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToService:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

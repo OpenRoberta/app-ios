@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEDeviceFunction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEDeviceFunction</TokenIdentifier>
+			<Abstract type="html">The Function a Device will support.</Abstract>
+			<DeclaredIn>LEDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceFunctionCentralMode</TokenIdentifier>
+            <Abstract type="html">Central Mode</Abstract>
+            <Declaration>LEDeviceFunctionCentralMode</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceFunctionPeripheralMode</TokenIdentifier>
+            <Abstract type="html">Peripheral Mode</Abstract>
+            <Declaration>LEDeviceFunctionPeripheralMode</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceFunctionIOPorts</TokenIdentifier>
+            <Abstract type="html">Device IO Ports mode</Abstract>
+            <Declaration>LEDeviceFunctionIOPorts</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEDeviceFunctionActsAsRemoteController</TokenIdentifier>
+            <Abstract type="html">Device acts as a remocte controller</Abstract>
+            <Declaration>LEDeviceFunctionActsAsRemoteController</Declaration>
+            
+            <DeclaredIn>LEDevice.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+	</File>
+</Tokens>

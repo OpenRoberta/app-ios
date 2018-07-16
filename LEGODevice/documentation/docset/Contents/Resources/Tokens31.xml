@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEInputFormatUnit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEInputFormatUnit</TokenIdentifier>
+			<Abstract type="html">The input format unit</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEInputFormatUnitRaw</TokenIdentifier>
+            <Abstract type="html">Raw</Abstract>
+            <Declaration>LEInputFormatUnitRaw</Declaration>
+            
+            <DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEInputFormatUnitPercentage</TokenIdentifier>
+            <Abstract type="html">Percentage</Abstract>
+            <Declaration>LEInputFormatUnitPercentage</Declaration>
+            
+            <DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEInputFormatUnitSI</TokenIdentifier>
+            <Abstract type="html">SI</Abstract>
+            <Declaration>LEInputFormatUnitSI</Declaration>
+            
+            <DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEInputFormatUnitUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown</Abstract>
+            <Declaration>LEInputFormatUnitUnknown</Declaration>
+            
+            <DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+	</File>
+</Tokens>

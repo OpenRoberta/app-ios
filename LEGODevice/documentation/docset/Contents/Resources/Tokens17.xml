@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEVoltageSensor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEVoltageSensor</TokenIdentifier>
+			<Abstract type="html">This service provides voltage (milliVolts readings for the battery on the device.
+Add a instance of a LEVoltageSensorDelegate using addDelegate: to be notified when a service receives an updated value.</Abstract>
+			<DeclaredIn>LEVoltageSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEVoltageSensor/setMilliVolts:</TokenIdentifier>
+			<Abstract type="html">The battery voltage in milli volts</Abstract>
+			<DeclaredIn>LEVoltageSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliVolts</Declaration>
+			
+			
+			<Anchor>//api/name/milliVolts</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEVoltageSensor/milliVolts</TokenIdentifier>
+			<Abstract type="html">The battery voltage in milli volts</Abstract>
+			<DeclaredIn>LEVoltageSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliVolts</Declaration>
+			
+			
+			<Anchor>//api/name/milliVolts</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEVoltageSensor/milliVolts</TokenIdentifier>
+			<Abstract type="html">The battery voltage in milli volts</Abstract>
+			<DeclaredIn>LEVoltageSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliVolts</Declaration>
+			
+			
+			<Anchor>//api/name/milliVolts</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEIOType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEIOType</TokenIdentifier>
+			<Abstract type="html">Represent the type of an attached IO (motor, sensor, etc).</Abstract>
+			<DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeMotor</TokenIdentifier>
+            <Abstract type="html">A Motor - use the LEMotor to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeMotor</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeVoltage</TokenIdentifier>
+            <Abstract type="html">A Voltage Sensor - use the LEVoltageSensor to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeVoltage</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeCurrent</TokenIdentifier>
+            <Abstract type="html">A Current Sensor - use the LECurrentSensor to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeCurrent</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypePiezoTone</TokenIdentifier>
+            <Abstract type="html">A Piezo Tone player - use the LEPiezoTonePlayer to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypePiezoTone</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeRGBLight</TokenIdentifier>
+            <Abstract type="html">An RGB light - use the LERGBLight to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeRGBLight</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeTiltSensor</TokenIdentifier>
+            <Abstract type="html">A Tilt Sensor - use the LETiltSensor to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeTiltSensor</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeMotionSensor</TokenIdentifier>
+            <Abstract type="html">A Motion Sensor (aka. Detect Sensor) - use the LEMotionSensor to communicate with this type of IO</Abstract>
+            <Declaration>LEIOTypeMotionSensor</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEIOTypeGeneric</TokenIdentifier>
+            <Abstract type="html">A type unknown to the SDK - use the LEGenericService to communicate with this type of IO.</Abstract>
+            <Declaration>LEIOTypeGeneric</Declaration>
+            
+            <DeclaredIn>LEConnectInfo.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+	</File>
+</Tokens>

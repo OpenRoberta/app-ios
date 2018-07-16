@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LEMotionSensorDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LEMotionSensorDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified when the LEMotionSensor updates its value</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEMotionSensorDelegate/motionSensor:didUpdateDistanceFrom:to:</TokenIdentifier>
+			<Abstract type="html">Invoked when the motion sensor has an updated distance value</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>- (void)motionSensor:(LEMotionSensor *)sensor didUpdateDistanceFrom:(CGFloat)oldDistance to:(CGFloat)newDistance</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sensor</Name>
+					<Abstract type="html">The sensor that has a new value</Abstract>
+				</Parameter><Parameter>
+					<Name>oldDistance</Name>
+					<Abstract type="html">The previous distance reading</Abstract>
+				</Parameter><Parameter>
+					<Name>newDistance</Name>
+					<Abstract type="html">The new distance reading</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/motionSensor:didUpdateDistanceFrom:to:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEMotionSensorDelegate/motionSensor:didUpdateCountTo:</TokenIdentifier>
+			<Abstract type="html">Invoked when the motion sensor has an updated count value</Abstract>
+			<DeclaredIn>LEMotionSensor.h</DeclaredIn>
+			
+			<Declaration>- (void)motionSensor:(LEMotionSensor *)sensor didUpdateCountTo:(NSUInteger)count</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sensor</Name>
+					<Abstract type="html">The sensor that has a new value</Abstract>
+				</Parameter><Parameter>
+					<Name>count</Name>
+					<Abstract type="html">The new value</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/motionSensor:didUpdateCountTo:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LECurrentSensor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LECurrentSensor</TokenIdentifier>
+			<Abstract type="html">This service provides current (milliAmp readings for the battery on the device.
+Add a instance of a LECurrentSensorDelegate using addDelegate: to be notified when a service receives an updated value.</Abstract>
+			<DeclaredIn>LECurrentSensor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LECurrentSensor/setMilliAmp:</TokenIdentifier>
+			<Abstract type="html">The battery current in milli amps</Abstract>
+			<DeclaredIn>LECurrentSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliAmp</Declaration>
+			
+			
+			<Anchor>//api/name/milliAmp</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LECurrentSensor/milliAmp</TokenIdentifier>
+			<Abstract type="html">The battery current in milli amps</Abstract>
+			<DeclaredIn>LECurrentSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliAmp</Declaration>
+			
+			
+			<Anchor>//api/name/milliAmp</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LECurrentSensor/milliAmp</TokenIdentifier>
+			<Abstract type="html">The battery current in milli amps</Abstract>
+			<DeclaredIn>LECurrentSensor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat milliAmp</Declaration>
+			
+			
+			<Anchor>//api/name/milliAmp</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

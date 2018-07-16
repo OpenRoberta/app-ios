@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEMotor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEMotor</TokenIdentifier>
+			<Abstract type="html">This service allows for controlling a simple motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/setPower:</TokenIdentifier>
+			<Abstract type="html">The power the motor is currently running with (0 if braking of drifting).</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/power</TokenIdentifier>
+			<Abstract type="html">The power the motor is currently running with (0 if braking of drifting).</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotor/power</TokenIdentifier>
+			<Abstract type="html">The power the motor is currently running with (0 if braking of drifting).</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger power</Declaration>
+			
+			
+			<Anchor>//api/name/power</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/setDirection:</TokenIdentifier>
+			<Abstract type="html">The current running direction of the motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) LEMotorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/direction</TokenIdentifier>
+			<Abstract type="html">The current running direction of the motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) LEMotorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotor/direction</TokenIdentifier>
+			<Abstract type="html">The current running direction of the motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) LEMotorDirection direction</Declaration>
+			
+			
+			<Anchor>//api/name/direction</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/setIsBraking:</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently braking (not running)</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isBraking</Declaration>
+			
+			
+			<Anchor>//api/name/isBraking</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/isBraking</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently braking (not running)</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isBraking</Declaration>
+			
+			
+			<Anchor>//api/name/isBraking</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotor/isBraking</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently braking (not running)</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isBraking</Declaration>
+			
+			
+			<Anchor>//api/name/isBraking</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/setIsDrifting:</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently drifting / floating.
+When floating the motor axis can be turned without resistance.</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isDrifting</Declaration>
+			
+			
+			<Anchor>//api/name/isDrifting</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/isDrifting</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently drifting / floating.
+When floating the motor axis can be turned without resistance.</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isDrifting</Declaration>
+			
+			
+			<Anchor>//api/name/isDrifting</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEMotor/isDrifting</TokenIdentifier>
+			<Abstract type="html">YES if the motor is currently drifting / floating.
+When floating the motor axis can be turned without resistance.</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL isDrifting</Declaration>
+			
+			
+			<Anchor>//api/name/isDrifting</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/runInDirection:power:</TokenIdentifier>
+			<Abstract type="html">Send a command to run the motor at a given power in a given direction.
+The minimum speed is 0 and the maximum speed is 100.</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>- (void)runInDirection:(LEMotorDirection)direction power:(NSUInteger)power</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>direction</Name>
+					<Abstract type="html">The direction to run the motor</Abstract>
+				</Parameter><Parameter>
+					<Name>power</Name>
+					<Abstract type="html">The power to run the motor with.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/runInDirection:power:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/brake</TokenIdentifier>
+			<Abstract type="html">Send a command to stop (brake) the motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>- (void)brake</Declaration>
+			
+			
+			<Anchor>//api/name/brake</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEMotor/drift</TokenIdentifier>
+			<Abstract type="html">Send a command to stop (drift/float) the motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+			
+			<Declaration>- (void)drift</Declaration>
+			
+			
+			<Anchor>//api/name/drift</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

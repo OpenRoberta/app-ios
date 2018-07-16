@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>LEGenericService Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LEGO Device SDK </a></h1>
+				<a id="developerHome" href="../index.html">LEGO</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">LEGenericService Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="LEGenericService Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">LEGenericService Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/LEService.html">LEService</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">LEGenericService.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The SDK will create instances of this class for IOs with an unknown LEIOType.</p>
+
+<p>The LEGenericService is a &lsquo;tagging&rsquo; interface and does not offer any extra methods or properties other than those available
+from its parent class LEService.</p>
+
+<p>As opposed to the known service types (tilt, motion, etc) a generic service does not have a predefined <a href="../Classes/LEService.html#//api/name/defaultInputFormat">[LEService defaultInputFormat]</a>.
+Therefore, when the SDK discovers a service with a type it does not recognize it does not automatically send an LEInputFormat
+to the LEDevice. Without a configured input format the Device will not send any updates for the SDK when the value readings of the sensor
+value changes for that service.</p>
+
+<p>  To receive IO value reading updates you must create and send an LEInputFormat to the device to be used for the service. You may look for
+inspiration on how to do this in one of the concrete service classes, like the LEMotionSensor or LEVoltageSensor. Below an example
+is given on how you could configure and use a new Temperature Sensor yet unknown to the SDK.</p>
+
+<pre><code> if ([service isKindOfClass:[LEGenericService class]] &amp;&amp;
+         service.connectInfo.type == temperatureSensorTypeNumber) {
+
+     LEGenericService *temperatureSensor = (LEGenericService *) service;
+
+     //The temperature sensor is yet unknown to the SDK (there is no
+     //LETemperatureSensor class) so we need to configure
+     //the service ourselves.
+
+     //As a generic sensor does not how a defaultInputFormat is defined
+     //we must create one and send it to the device.
+     //Look in the documentation for the temperature sensor to see which modes it supports.
+     LEInputFormat *inputFormat = [LEInputFormat
+             inputFormatWithConnectID:service.connectInfo.connectID
+             typeID:service.connectInfo.type
+             mode:0 //See the documentation for the sensor for supported modes
+             deltaInterval:1 //Receive updates when the value changes with delta 1
+             unit:LEInputFormatUnitSI
+             notificationsEnabled:YES];
+
+     //Tell the device to configure the sensor with the input format
+     [temperatureSensor updateInputFormat:inputFormat];
+
+
+     //We know from the documentation that the temperature sensor produces readings in
+     //Kelvin as 4 byte floats when in mode 0 with unit set to SI.
+     LEDataFormat *dataFormat = [LEDataFormat
+             formatWithModeName:@"Kelvin"
+             mode:0 //must match the mode for the inputFormat
+             unit:LEInputFormatUnitSI //must match the unit for the inputFormat
+             sizeOfDataSet:4 //a 4 byte float
+             dataSetCount:1]; //only one value in the data set (the temperature)
+
+     [temperatureSensor addValidDataFormat:dataFormat];
+
+     //Now, add a delegate to receive notifications when the service has a new
+     //temperature reading
+     [temperatureSensor addDelegate:self];
+ }
+</code></pre>
+
+<p>Now, when the service receives an updated value from the temperature sensor you will receive
+a notification through the delegate.</p>
+
+<pre><code>- (void)service:(LEService *)service didUpdateValueDataFrom:(NSData *)oldValue to:(NSData *)newValue
+{
+    //As we have defined a valid data format stating that the received value can be parsed as a 4 byte
+    //float we can use the convenience method to retrieve the value as a float.
+    Float32 temperatureReading = service.valueAsFloat;
+
+}
+</code></pre>
+
+<p>It is not required to add a valid data format to the LEGenericService, but it is recommended to
+do so as this will also help the SDK validate all received data according to the defined valid data formats
+and write any inconsistencies to the <a href="../Classes/LELogger.html">LELogger</a>.</p>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 LEGO. All rights reserved. (Last updated: 2015-06-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

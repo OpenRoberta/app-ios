@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LEInputFormat.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LEInputFormat</TokenIdentifier>
+			<Abstract type="html">This class represent a configuration of a Input (sensor). At any time a sensor can be in just one mode,
+and the details of this mode is captured by this class.</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/LEInputFormat/inputFormatWithConnectID:typeID:mode:deltaInterval:unit:notificationsEnabled:</TokenIdentifier>
+			<Abstract type="html">Create a new instance of an LEInputFormat.</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)inputFormatWithConnectID:(uint8_t)connectID typeID:(uint8_t)typeID mode:(uint8_t)mode deltaInterval:(uint32_t)deltaInterval unit:(LEInputFormatUnit)unit notificationsEnabled:(BOOL)notificationsEnabled</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>connectID</Name>
+					<Abstract type="html">The connectID of the service, see [LEService connectInfo].</Abstract>
+				</Parameter><Parameter>
+					<Name>typeID</Name>
+					<Abstract type="html">The type of the IO, see [LEService connectInfo].</Abstract>
+				</Parameter><Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The mode of the IO (Inputs/Senors may support a number of different modes)</Abstract>
+				</Parameter><Parameter>
+					<Name>deltaInterval</Name>
+					<Abstract type="html">The delta interval</Abstract>
+				</Parameter><Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">The unit the sensor should return values in</Abstract>
+				</Parameter><Parameter>
+					<Name>notificationsEnabled</Name>
+					<Abstract type="html">YES if the device should send updates when the value changes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/inputFormatWithConnectID:typeID:mode:deltaInterval:unit:notificationsEnabled:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/inputFormatBySettingMode:</TokenIdentifier>
+			<Abstract type="html">Creates a copy of this input format with a new mode</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)inputFormatBySettingMode:(uint8_t)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The new mode</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/inputFormatBySettingMode:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/inputFormatBySettingMode:unit:</TokenIdentifier>
+			<Abstract type="html">Creates a copy of this input format with a new mode and unit</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)inputFormatBySettingMode:(uint8_t)mode unit:(LEInputFormatUnit)unit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The new mode</Abstract>
+				</Parameter><Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">The new unit</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/inputFormatBySettingMode:unit:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/inputFormatBySettingDeltaInterval:</TokenIdentifier>
+			<Abstract type="html">Creates a copy of this input format with a new delta interval</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)inputFormatBySettingDeltaInterval:(uint32_t)interval</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>interval</Name>
+					<Abstract type="html">The new delta interval</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/inputFormatBySettingDeltaInterval:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/inputFormatBySettingNotificationsEnabled:</TokenIdentifier>
+			<Abstract type="html">Creates a copy of this input format with a new value for notifications enabled</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)inputFormatBySettingNotificationsEnabled:(BOOL)enabled</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enabled</Name>
+					<Abstract type="html">YES if the sensor should send updates when the value changes</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/inputFormatBySettingNotificationsEnabled:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/isEqualToFormat:</TokenIdentifier>
+			<Abstract type="html">Returns YES if this input format is equal to otherFormat</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqualToFormat:(LEInputFormat *)otherFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherFormat</Name>
+					<Abstract type="html">The input format to be compared to the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isEqualToFormat:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setRevision:</TokenIdentifier>
+			<Abstract type="html">The revision of the Input Format (set by the Device).
+When a new Input Format is set for a service the Device will send the updated Input Format through the [LEServiceDelegate service:didUpdateInputFormatFrom:to].
+The Device will assign a revision number to the new Input Format. The revision number is matched against the revision format when receiving values for the
+corresponding service.</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t revision</Declaration>
+			
+			
+			<Anchor>//api/name/revision</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/revision</TokenIdentifier>
+			<Abstract type="html">The revision of the Input Format (set by the Device).
+When a new Input Format is set for a service the Device will send the updated Input Format through the [LEServiceDelegate service:didUpdateInputFormatFrom:to].
+The Device will assign a revision number to the new Input Format. The revision number is matched against the revision format when receiving values for the
+corresponding service.</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t revision</Declaration>
+			
+			
+			<Anchor>//api/name/revision</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/revision</TokenIdentifier>
+			<Abstract type="html">The revision of the Input Format (set by the Device).
+When a new Input Format is set for a service the Device will send the updated Input Format through the [LEServiceDelegate service:didUpdateInputFormatFrom:to].
+The Device will assign a revision number to the new Input Format. The revision number is matched against the revision format when receiving values for the
+corresponding service.</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t revision</Declaration>
+			
+			
+			<Anchor>//api/name/revision</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setConnectID:</TokenIdentifier>
+			<Abstract type="html">The connectID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/connectID</TokenIdentifier>
+			<Abstract type="html">The connectID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/connectID</TokenIdentifier>
+			<Abstract type="html">The connectID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t connectID</Declaration>
+			
+			
+			<Anchor>//api/name/connectID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setTypeID:</TokenIdentifier>
+			<Abstract type="html">The typeID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t typeID</Declaration>
+			
+			
+			<Anchor>//api/name/typeID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/typeID</TokenIdentifier>
+			<Abstract type="html">The typeID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t typeID</Declaration>
+			
+			
+			<Anchor>//api/name/typeID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/typeID</TokenIdentifier>
+			<Abstract type="html">The typeID of the corresponding service, see [LEService connectInfo]</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t typeID</Declaration>
+			
+			
+			<Anchor>//api/name/typeID</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setMode:</TokenIdentifier>
+			<Abstract type="html">The mode of the Input</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/mode</TokenIdentifier>
+			<Abstract type="html">The mode of the Input</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/mode</TokenIdentifier>
+			<Abstract type="html">The mode of the Input</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setDeltaInterval:</TokenIdentifier>
+			<Abstract type="html">The delta interval. When notifications are enabled the service will only receive updates if the value has change with &apos;delta interval&apos; or more since last reading</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint32_t deltaInterval</Declaration>
+			
+			
+			<Anchor>//api/name/deltaInterval</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/deltaInterval</TokenIdentifier>
+			<Abstract type="html">The delta interval. When notifications are enabled the service will only receive updates if the value has change with &apos;delta interval&apos; or more since last reading</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint32_t deltaInterval</Declaration>
+			
+			
+			<Anchor>//api/name/deltaInterval</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/deltaInterval</TokenIdentifier>
+			<Abstract type="html">The delta interval. When notifications are enabled the service will only receive updates if the value has change with &apos;delta interval&apos; or more since last reading</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint32_t deltaInterval</Declaration>
+			
+			
+			<Anchor>//api/name/deltaInterval</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setUnit:</TokenIdentifier>
+			<Abstract type="html">The unit the values are delivered in (as raw values, or as SI values)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/unit</TokenIdentifier>
+			<Abstract type="html">The unit the values are delivered in (as raw values, or as SI values)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/unit</TokenIdentifier>
+			<Abstract type="html">The unit the values are delivered in (as raw values, or as SI values)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) LEInputFormatUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setNotificationsEnabled:</TokenIdentifier>
+			<Abstract type="html">YES if new values are send whenever the value of the Input changes beyond delta interval</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isNotificationsEnabled) BOOL notificationsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsEnabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/isNotificationsEnabled</TokenIdentifier>
+			<Abstract type="html">YES if new values are send whenever the value of the Input changes beyond delta interval</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isNotificationsEnabled) BOOL notificationsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsEnabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/notificationsEnabled</TokenIdentifier>
+			<Abstract type="html">YES if new values are send whenever the value of the Input changes beyond delta interval</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isNotificationsEnabled) BOOL notificationsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsEnabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/setNumberOfBytes:</TokenIdentifier>
+			<Abstract type="html">The number of bytes to be expected in the Input data payload (set by the Device)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t numberOfBytes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfBytes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LEInputFormat/numberOfBytes</TokenIdentifier>
+			<Abstract type="html">The number of bytes to be expected in the Input data payload (set by the Device)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t numberOfBytes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfBytes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LEInputFormat/numberOfBytes</TokenIdentifier>
+			<Abstract type="html">The number of bytes to be expected in the Input data payload (set by the Device)</Abstract>
+			<DeclaredIn>LEInputFormat.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) uint8_t numberOfBytes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfBytes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/LEMotorDirection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/LEMotorDirection</TokenIdentifier>
+			<Abstract type="html">The direction of a motor</Abstract>
+			<DeclaredIn>LEMotor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotorDirectionDrifting</TokenIdentifier>
+            <Abstract type="html">Drifting (Floating)</Abstract>
+            <Declaration>LEMotorDirectionDrifting</Declaration>
+            
+            <DeclaredIn>LEMotor.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotorDirectionLeft</TokenIdentifier>
+            <Abstract type="html">Running left</Abstract>
+            <Declaration>LEMotorDirectionLeft</Declaration>
+            
+            <DeclaredIn>LEMotor.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotorDirectionRight</TokenIdentifier>
+            <Abstract type="html">Running right</Abstract>
+            <Declaration>LEMotorDirectionRight</Declaration>
+            
+            <DeclaredIn>LEMotor.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LEMotorDirectionBraking</TokenIdentifier>
+            <Abstract type="html">Brake</Abstract>
+            <Declaration>LEMotorDirectionBraking</Declaration>
+            
+            <DeclaredIn>LEMotor.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+	</File>
+</Tokens>

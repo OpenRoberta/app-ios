@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LELogWriter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LELogWriter</TokenIdentifier>
+			<Abstract type="html">You may provide an implementation of this protocol to the LELogger to have all
+log from the LEGO Device SDK written to a custom destination (for instance a remote logging server).</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LELogWriter/writeMessage:logLevel:</TokenIdentifier>
+			<Abstract type="html">Writes a message from the LEGO Device SDK to a custom logging destination.</Abstract>
+			<DeclaredIn>LELogger.h</DeclaredIn>
+			
+			<Declaration>- (void)writeMessage:(NSString *)message logLevel:(LELoggerLevel)level</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message that will be written to the logging destination</Abstract>
+				</Parameter><Parameter>
+					<Name>level</Name>
+					<Abstract type="html">The log level</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/writeMessage:logLevel:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

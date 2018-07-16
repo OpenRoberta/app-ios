@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/LEDeviceManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/LEDeviceManagerDelegate</TokenIdentifier>
+			<Abstract type="html">Implement this protocol to be notified when a new device starts or stops advertising, and when a connection to a
+device is established or closed.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:deviceDidAppear:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device advertising a LEGO Device service UUID is discovered.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager deviceDidAppear:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The discovered device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:deviceDidAppear:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:deviceDidDisappear:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device stops advertising a LEGO Device service.
+The LEDeviceManager will check at small refresh-intervals if an advertising
+packet was received during the refresh-interval. If not, this method is invoked.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager deviceDidDisappear:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device that stopped advertising</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:deviceDidDisappear:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:willStartConnectingToDevice:</TokenIdentifier>
+			<Abstract type="html">Invoked when starting a device connect attempt. Normally, this will happen right after calling
+[LEDeviceManager connectToDevice:]. However, it may also happen in relation to an automatic reconnect
+attempt.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/LEDeviceManager/automaticReconnectOnConnectionLostEnabled</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/LEDeviceManager/connectToDevice:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager willStartConnectingToDevice:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device that stopped advertising</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:willStartConnectingToDevice:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:didStartInterrogatingDevice:</TokenIdentifier>
+			<Abstract type="html">Invoked when a connection to a device is established, and the interrogation of the
+device for required services begins. A connection is established at this point
+but the device is not yet ready to be used.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager didStartInterrogatingDevice:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The connected device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:didStartInterrogatingDevice:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:didFinishInterrogatingDevice:</TokenIdentifier>
+			<Abstract type="html">Invoked when a connection to a device is established and all required services has been discovered.
+At this point the device is ready for use.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager didFinishInterrogatingDevice:(LEDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The connected device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:didFinishInterrogatingDevice:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:didDisconnectFromDevice:willAttemptAutoReconnect:error:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device is disconnected.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager didDisconnectFromDevice:(LEDevice *)device willAttemptAutoReconnect:(BOOL)autoReconnect error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The disconnected device</Abstract>
+				</Parameter><Parameter>
+					<Name>autoReconnect</Name>
+					<Abstract type="html">YES if an automatic reconnect will be attempted, see [LEDeviceManager automaticReconnectOnConnectionLostEnabled].</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">If an error occurred, the cause of the failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:didDisconnectFromDevice:willAttemptAutoReconnect:error:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/LEDeviceManagerDelegate/deviceManager:didFailToConnectToDevice:willAttemptAutoReconnect:error:</TokenIdentifier>
+			<Abstract type="html">Invoked when a device fails to connect, of if a connection request times out.</Abstract>
+			<DeclaredIn>LEDeviceManager.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceManager:(LEDeviceManager *)manager didFailToConnectToDevice:(LEDevice *)device willAttemptAutoReconnect:(BOOL)autoReconnect error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The LEDeviceManager</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device that failed to connect</Abstract>
+				</Parameter><Parameter>
+					<Name>autoReconnect</Name>
+					<Abstract type="html">YES if an automatic reconnect will be attempted, see [LEDeviceManager automaticReconnectOnConnectionLostEnabled].</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The cause of the failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceManager:didFailToConnectToDevice:willAttemptAutoReconnect:error:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
