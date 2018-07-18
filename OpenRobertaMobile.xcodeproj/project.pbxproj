@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "RobApp" */;
+			buildConfigurationList = 7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "OpenRobertaMobile" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -459,14 +459,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KB2VZ373ZY;
+				DEVELOPMENT_TEAM = A47DBU4MQT;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RobApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.iais.RobApp.rbudde;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fraunhofer.iais.app-ios-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RobApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -480,14 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KB2VZ373ZY;
+				DEVELOPMENT_TEAM = A47DBU4MQT;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RobApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.iais.RobApp.rbudde;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fraunhofer.iais.app-ios-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RobApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -499,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "RobApp" */ = {
+		7E53FD9C1FD9782B00B73E92 /* Build configuration list for PBXProject "OpenRobertaMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E53FDB11FD9782B00B73E92 /* Debug */,

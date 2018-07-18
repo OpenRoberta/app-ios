@@ -17,7 +17,7 @@
                BlueprintIdentifier = "7E53FDA01FD9782B00B73E92"
                BuildableName = "RobApp.app"
                BlueprintName = "RobApp"
-               ReferencedContainer = "container:RobApp.xcodeproj">
+               ReferencedContainer = "container:OpenRobertaMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "7E53FDA01FD9782B00B73E92"
             BuildableName = "RobApp.app"
             BlueprintName = "RobApp"
-            ReferencedContainer = "container:RobApp.xcodeproj">
+            ReferencedContainer = "container:OpenRobertaMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "7E53FDA01FD9782B00B73E92"
             BuildableName = "RobApp.app"
             BlueprintName = "RobApp"
-            ReferencedContainer = "container:RobApp.xcodeproj">
+            ReferencedContainer = "container:OpenRobertaMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "7E53FDA01FD9782B00B73E92"
             BuildableName = "RobApp.app"
             BlueprintName = "RobApp"
-            ReferencedContainer = "container:RobApp.xcodeproj">
+            ReferencedContainer = "container:OpenRobertaMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

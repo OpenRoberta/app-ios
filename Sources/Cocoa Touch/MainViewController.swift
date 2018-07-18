@@ -6,7 +6,7 @@ import WebKit
 class MainViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, LEDeviceManagerDelegate, WKScriptMessageHandler {
     
     private(set) var webView: WKWebView!
-    var labUrl = "https://lab.open-roberta.org" // this is the default, if no user settings are found
+    var labUrl = "https://lab.open-roberta.org/#loadSystem&&wedo" // this is the default, if no user settings are found
     
     // hide the statusbar
     override var prefersStatusBarHidden: Bool { return true }
@@ -45,8 +45,9 @@ class MainViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, 
     }
     
     private func openWebsite() {
-        let urlFromDefault = UserDefaults.standard.string(forKey: "server_url")
+        let urlFromDefault = UserDefaults.standard.url(forKey: "server_url")?.relativePath
         let urlString = urlFromDefault ?? labUrl
+        
         if let url = URL(string: urlString) {
             var request = URLRequest(url: url)
             request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 20)

@@ -20,7 +20,7 @@
 			<key>Key</key>
 			<string>server_url</string>
 			<key>DefaultValue</key>
-			<string>https://lab.open-roberta.org</string>
+			<string>reinhard</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
