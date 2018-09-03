@@ -45,7 +45,7 @@ class MainViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, 
     }
     
     private func openWebsite() {
-        let urlFromDefault = UserDefaults.standard.url(forKey: "server_url")?.relativePath
+        let urlFromDefault = UserDefaults.standard.string(forKey: "server_url")
         let urlString = urlFromDefault ?? labUrl
         
         if let url = URL(string: urlString) {
