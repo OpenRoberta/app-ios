@@ -10,25 +10,20 @@
 		19AF073082A0F29D79406549 /* LEBluetoothDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF0A77678F25B5AE6C2576 /* LEBluetoothDevice.m */; };
 		19AF0ACA97F753D673605411 /* LEBluetoothDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF07ABFA45F3A9C7C2B135 /* LEBluetoothDeviceManager.m */; };
 		19AF0F009A08691E5EDCDFF1 /* LEBluetoothHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF0656827920043D786E88 /* LEBluetoothHelper.m */; };
-		455DF671191390BA00007F6B /* LEBluetoothIOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 455DF670191390BA00007F6B /* LEBluetoothIOTest.m */; };
 		45611BB4183D117E0093A2D8 /* NSData+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 45611BB3183D117E0093A2D8 /* NSData+LEAdditional.m */; };
-		45628165183AAE28005B7390 /* LETestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45628164183AAE28005B7390 /* LETestCase.m */; };
-		457C6C271989097900232B13 /* LEDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC9462320DF37DFFC1A5F /* LEDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		457C6C28198909D500232B13 /* LEBluetoothDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AF014FE8CBA69C963E5113 /* LEBluetoothDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457C6C271989097900232B13 /* LEDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC9462320DF37DFFC1A5F /* LEDevice.h */; };
+		457C6C28198909D500232B13 /* LEBluetoothDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AF014FE8CBA69C963E5113 /* LEBluetoothDevice.h */; };
 		457C6C29198909D500232B13 /* LEBluetoothDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AF0041CBEA1DB738CBFBDC /* LEBluetoothDeviceManager.h */; };
-		457D018E18F6BEF5001D6660 /* LEGODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5D8A941827C08400F21865 /* LEGODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457D018E18F6BEF5001D6660 /* LEGODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5D8A941827C08400F21865 /* LEGODevice.h */; };
 		457D018F18F6BF22001D6660 /* LEBluetoothHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AF04CA3348972CC9DB71C2 /* LEBluetoothHelper.h */; };
-		458AD0011906508000608F34 /* LEInputFormatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 458AD0001906508000608F34 /* LEInputFormatTest.m */; };
 		45B2F26E181FA99F000274A2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B2F26D181FA99F000274A2 /* CoreImage.framework */; };
 		45B2F26F181FF239000274A2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B2F26D181FA99F000274A2 /* CoreImage.framework */; };
-		45B2F270181FF426000274A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB9A317BCD29D00D0850C /* XCTest.framework */; };
 		45BAB99617BCD29D00D0850C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB99517BCD29D00D0850C /* Foundation.framework */; };
 		45BAB9A417BCD29D00D0850C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB9A317BCD29D00D0850C /* XCTest.framework */; };
 		45BAB9A517BCD29D00D0850C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB99517BCD29D00D0850C /* Foundation.framework */; };
 		45BAB9AA17BCD29D00D0850C /* libLEGODevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB99217BCD29D00D0850C /* libLEGODevice.a */; };
-		45BAB9B017BCD29D00D0850C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45BAB9AE17BCD29D00D0850C /* InfoPlist.strings */; };
 		45BAB9BE17BCD2C100D0850C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BAB9BD17BCD2C100D0850C /* CoreBluetooth.framework */; };
-		45C1766B18FD5255005D8C85 /* LEErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C1766A18FD5255005D8C85 /* LEErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C1766B18FD5255005D8C85 /* LEErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C1766A18FD5255005D8C85 /* LEErrorCodes.h */; };
 		45F37ADA1AB9A3320086A7AD /* LEGOLoggerUnityWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F37AD81AB9A3320086A7AD /* LEGOLoggerUnityWrapper.h */; };
 		45F37ADB1AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F37AD91AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m */; };
 		45F37ADC1AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F37AD91AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m */; };
@@ -36,14 +31,11 @@
 		45F37ADE1AB9A3480086A7AD /* LEGOLoggerUnityWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F37AD91AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m */; };
 		688BC060A1E4E6C6BA5CE178 /* CBService+LEAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC157AAF8A6613F2376D4 /* CBService+LEAdditional.h */; };
 		688BC0ADFD4C0576EDBDC07F /* LELogger+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2524EFE5F560A8851B5 /* LELogger+Project.m */; };
-		688BC0CC24B93B28B61F2217 /* LEOutputCommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCF774261BBF870084B2E /* LEOutputCommandTest.m */; };
-		688BC100CBC1CD27482F40D0 /* LECurrentSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC148DC269860DCABDC25 /* LECurrentSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BC1076D0157566F9BB8C2 /* LERGBLight.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6446EE9D416542855EF /* LERGBLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC100CBC1CD27482F40D0 /* LECurrentSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC148DC269860DCABDC25 /* LECurrentSensor.h */; };
+		688BC1076D0157566F9BB8C2 /* LERGBLight.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6446EE9D416542855EF /* LERGBLight.h */; };
 		688BC14136418D4CDB2D3959 /* CIColor+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC0B6A0F910B0A0033C16 /* CIColor+LEAdditional.m */; };
-		688BC162B66CE6EE66641BCD /* LELogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC12DEB89A83D19846FBE /* LELogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BC193B84DE0F2014E16F3 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC6DD417FAED8D4F8DFE7 /* NSData+Hex.m */; };
-		688BC1986E4E4695A49AFD67 /* LEGenericService.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC1B43F40ACF0C7C88141 /* LEGenericService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BC1F76C6BAB868C2CD50B /* LEVoltageSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC7675214725131BD9C6B /* LEVoltageSensorTest.m */; };
+		688BC162B66CE6EE66641BCD /* LELogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC12DEB89A83D19846FBE /* LELogger.h */; };
+		688BC1986E4E4695A49AFD67 /* LEGenericService.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC1B43F40ACF0C7C88141 /* LEGenericService.h */; };
 		688BC1F9F52E9F0192882992 /* LEMultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC2F4FAD3CC2AA8021E3F /* LEMultiDelegate.h */; };
 		688BC22A8F32CA5AB3F61E51 /* LERGBLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCBB8BD16AFCA09052426 /* LERGBLight.m */; };
 		688BC2484C87E5254F3EA0B0 /* LEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC0B24D297A5D390143D8 /* LEDevice.m */; };
@@ -51,84 +43,65 @@
 		688BC25EC1BEEB542268FA98 /* LELogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC1FABFD8D3936C840C6F /* LELogger.m */; };
 		688BC27CAE79FD763CA244D9 /* LEOutputCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5F2B598D83697BA5894 /* LEOutputCommand.m */; };
 		688BC2F5DEC40FBBF1446DE9 /* LEBatteryServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC952EDB806901C4CAD30 /* LEBatteryServiceDefinition.h */; };
-		688BC316FFCBBBFD7D296306 /* LERevision.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCA2EF88360DC6228F2ED /* LERevision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC316FFCBBBFD7D296306 /* LERevision.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCA2EF88360DC6228F2ED /* LERevision.h */; };
 		688BC3209B4C5B25BB15E5F6 /* LEVoltageSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC32E08C7DA58B8A87FAF /* LEVoltageSensor.m */; };
-		688BC34AE98AD9BDE37D1996 /* LEServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC04CA69A240C26E11421 /* LEServiceTest.m */; };
-		688BC36EBAF6483E12313B4B /* LEInputFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCD7EFE90504694D7BC76 /* LEInputFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC36EBAF6483E12313B4B /* LEInputFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCD7EFE90504694D7BC76 /* LEInputFormat.h */; };
 		688BC3716C8BCBE5EF26037E /* LELogger+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC3FF1841DFD613D230F2 /* LELogger+Project.h */; };
-		688BC3F854474F2FA31438BC /* LEServiceFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCA06460BEF29E4F207BD /* LEServiceFactoryTest.m */; };
 		688BC3FB4EEFA5A301D7A05B /* LEServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC61C39916D2D8CD89316 /* LEServiceFactory.m */; };
-		688BC41FC06C3115FD18B8A0 /* LEConnectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC9E52EA45663C4A533EA /* LEConnectInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BC4B4C45D3B81878DA85C /* LEMotionSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCE5F9ED5184BC9B99D05 /* LEMotionSensorTest.m */; };
-		688BC4E08E37E71B916B3A96 /* LECurrentSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCC59D07AA263C3CF2055 /* LECurrentSensorTest.m */; };
+		688BC41FC06C3115FD18B8A0 /* LEConnectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC9E52EA45663C4A533EA /* LEConnectInfo.h */; };
 		688BC50C09F503911597A587 /* LEBluetoothServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCD1152321169C87EAA8F /* LEBluetoothServiceDefinition.m */; };
 		688BC514237381D46A5CB520 /* LEConnectInfo+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCA2B349349E347BC6E81 /* LEConnectInfo+Project.h */; };
 		688BC57F479FCFAC705BD723 /* LEServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCB21D55F91545750482F /* LEServiceFactory.h */; };
-		688BC5834FD6DD884799D67D /* LEDeviceInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCE416738E1FE789B3285 /* LEDeviceInfoTest.m */; };
-		688BC58D059B276163D2F0AA /* LEInputCommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5F0F1E9FF4AB243ECFE /* LEInputCommandTest.m */; };
 		688BC5E8F5A845E17A1509DC /* LEPiezoTonePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC66D2D5F33BD620F81E9 /* LEPiezoTonePlayer.m */; };
 		688BC5EA71F93940A21C65D4 /* LEInputCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCCF0A85FEEC01EF83A97 /* LEInputCommand.m */; };
-		688BC69D721029A0CAFF65B5 /* LEIOStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCBED1E5ED83D38D12910 /* LEIOStub.m */; };
-		688BC6B86C95CEB6E11DCAE8 /* LEBluetoothDeviceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC487CEDC1E5B4FEAD61E /* LEBluetoothDeviceTest.m */; };
-		688BC6EB56EDA37DB1C1EA71 /* LERGBLightTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC14AC74150D6DC64C539 /* LERGBLightTest.m */; };
 		688BC6F0527EA48668120171 /* LEDeviceInfoServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCFADF8F1E139CBE4156D /* LEDeviceInfoServiceDefinition.h */; };
 		688BC70735E4B9950B153FE4 /* LEInputCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCBD4D24603C8CA78CEED /* LEInputCommand.h */; };
 		688BC762DBE3B494EEC2EB1B /* LECharacteristicDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCAD76290C10586FA8A6C /* LECharacteristicDefinition.h */; };
-		688BC7C3AC1EFEB373D3A95B /* LEPiezoTonePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCFB4FC588188B9BC612A /* LEPiezoTonePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC7C3AC1EFEB373D3A95B /* LEPiezoTonePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCFB4FC588188B9BC612A /* LEPiezoTonePlayer.h */; };
 		688BC80024B5E67533D51CD0 /* LETiltSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC88F29CADC166A99B20F /* LETiltSensor.m */; };
 		688BC80E92AE85584DCEC3E9 /* LEIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC45300331E28373FF9EC /* LEIO.h */; };
 		688BC864F1BCD1ECA4E7E2D9 /* LEMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC014486758D80DAFBCA1 /* LEMultiDelegate.m */; };
 		688BC86B61719EC60D4066A9 /* LEDeviceInfo+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC78630B038BCB128071D /* LEDeviceInfo+Project.h */; };
 		688BC87237964AF07851F66B /* LEBluetoothIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCB12DCC07658C929ECC5 /* LEBluetoothIO.h */; };
-		688BC87E98931E9E184E75A9 /* LEMotorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC76D2AB44DCBFE249382 /* LEMotorTest.m */; };
 		688BC8A16E00462561D12AD1 /* LECurrentSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCA89AA2847D9AFAA5501 /* LECurrentSensor.m */; };
-		688BC8C49765C903AF48F374 /* LEDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC182B62FB8C078CEA8A5 /* LEDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC8C49765C903AF48F374 /* LEDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC182B62FB8C078CEA8A5 /* LEDeviceInfo.h */; };
 		688BC8ED6E9B45E87941B8EB /* LEMotionSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCCC6F5D3F7A38692C9AA /* LEMotionSensor.m */; };
 		688BC8F1ED6AA2053A881EB2 /* NSSet+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC520AA624943C2050A1F /* NSSet+LEAdditional.m */; };
 		688BC90FD27850803692D785 /* LEDeviceInfoServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC9FCDA8B7D4A73F8C03A /* LEDeviceInfoServiceDefinition.m */; };
 		688BC9184B5372E874DD3576 /* NSArray+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC4E67C02AEDE5327701E /* NSArray+LEAdditional.m */; };
 		688BC93B8058F2F5A8F5F3BC /* CBService+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC316E6F91D4E907F3C9F /* CBService+LEAdditional.m */; };
-		688BC9527008E016E0AA8CF5 /* LEDataFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC0455BCE524836C62554 /* LEDataFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BC9578ACBD41C0F155505 /* LEVoltageSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC8D8E1DF2B40ED17F1FF /* LEVoltageSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BC9527008E016E0AA8CF5 /* LEDataFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC0455BCE524836C62554 /* LEDataFormat.h */; };
+		688BC9578ACBD41C0F155505 /* LEVoltageSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC8D8E1DF2B40ED17F1FF /* LEVoltageSensor.h */; };
 		688BC9A6F23FF3245C71D68D /* LEBluetoothIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCF744D61ED6EF45F08E2 /* LEBluetoothIO.m */; };
 		688BC9A8484EF1CE0CCD9859 /* LERevision+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6E6AAA883664ABFB1D6 /* LERevision+Project.h */; };
 		688BC9C48D341072BC87E063 /* CBCharacteristic+LEAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC811CB81F89D8F49F524 /* CBCharacteristic+LEAdditional.h */; };
-		688BC9E0DD30693C1A3ED994 /* LETestStubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCD60009DA523BC6C1CF7 /* LETestStubFactory.m */; };
 		688BCA02A29A186B7AE0B70A /* LEIOServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6AC4E03FA6075112F9E /* LEIOServiceDefinition.h */; };
 		688BCA15FB82282366FEF332 /* LEDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCBB03A4197A3448FF9C2 /* LEDeviceInfo.m */; };
 		688BCA21197C9EB3A4F756F5 /* LECharacteristicDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC1489A10657409019B53 /* LECharacteristicDefinition.m */; };
-		688BCA3233720115A663EBE0 /* NSData+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5D4E0CE6CB00C4E9C8D /* NSData+Test.m */; };
 		688BCA703666531DFD8BEA7D /* LEDataFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC74DE236A9F647F41301 /* LEDataFormat.m */; };
-		688BCAC70F5A4C281736AAA8 /* LEMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC96BF0C9CB7B0B94EB77 /* LEMotor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BCAC70F5A4C281736AAA8 /* LEMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC96BF0C9CB7B0B94EB77 /* LEMotor.h */; };
 		688BCACB1075C432EF80A23B /* CBCharacteristic+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCFBFA7A23A731B68CD49 /* CBCharacteristic+LEAdditional.m */; };
-		688BCB3F4167020F974205E9 /* LETiltSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5FEB0B5250A1940D8AD /* LETiltSensorTest.m */; };
 		688BCB41C57A45B81FBF5C93 /* LEDeviceServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC85E75DF7434D46ABF7C /* LEDeviceServiceDefinition.h */; };
 		688BCB833A55BA3EA712F1FD /* LEConnectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC4A46DC8628A0BA60EAA /* LEConnectInfo.m */; };
 		688BCB87B49153FB087DA531 /* LEService.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCCC786A1066C6CB1EC08 /* LEService.m */; };
-		688BCB9CCDC5AADE6FAA97E6 /* LEDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6F6A6AE13A1D9F5FF5E /* LEDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BCBE11F787D4C7D117252 /* LEMultiDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC1E9DF8DA8CFD6CD877D /* LEMultiDelegateTest.m */; };
+		688BCB9CCDC5AADE6FAA97E6 /* LEDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC6F6A6AE13A1D9F5FF5E /* LEDeviceManager.h */; };
 		688BCC1BC1ED5D722AA07130 /* LEIOServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC3BC22C6693FDDC87647 /* LEIOServiceDefinition.m */; };
 		688BCC4B4A9FB9ECAFF6F63E /* LEDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2B6F3834F98BC608D26 /* LEDeviceManager.m */; };
-		688BCC4CE24A06F9F4F3B020 /* CoreBluetoothMockFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC9A41DF6E06781468B05 /* CoreBluetoothMockFactory.m */; };
 		688BCC6E43AD09FD84DF2866 /* LEMotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5E6A6912B64D1AC21F8 /* LEMotor.m */; };
-		688BCC75E036FC4C5EC4FE12 /* LEBluetoothDeviceManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCCE0AFBC3D948BEF61C5 /* LEBluetoothDeviceManagerTest.m */; };
 		688BCC983EF9E4AAACDB1EE2 /* LEBluetoothDevice+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCB2C8E1D122A0A917E28 /* LEBluetoothDevice+Project.h */; };
 		688BCD003501889175862083 /* LEGenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC20AFE8E724892F773C8 /* LEGenericService.m */; };
 		688BCDCB7082C7811667D9FC /* LEBluetoothServiceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC50F829C24C44C1467E7 /* LEBluetoothServiceDefinition.h */; };
 		688BCDE768690E39F00FBD1F /* LEDeviceServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC743C55B496E41C6DBED /* LEDeviceServiceDefinition.m */; };
 		688BCE039D2BD03E6A9337AF /* LERevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC3AAC01AD3AC7058FEDC /* LERevision.m */; };
 		688BCE2954908079259A9277 /* LEBatteryServiceDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC474E6590635BF9AEC04 /* LEBatteryServiceDefinition.m */; };
-		688BCE9E274E498152EC665B /* LEMotionSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCBFADD2F9C31FE454CDD /* LEMotionSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688BCEAEEEB7B620D9CD466C /* LEService.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC82CC5BC4A232043A791 /* LEService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BCE9E274E498152EC665B /* LEMotionSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCBFADD2F9C31FE454CDD /* LEMotionSensor.h */; };
+		688BCEAEEEB7B620D9CD466C /* LEService.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC82CC5BC4A232043A791 /* LEService.h */; };
 		688BCED129EDF347F93700CE /* CIColor+LEAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC1F637F83C0F9440B9A4 /* CIColor+LEAdditional.h */; };
 		688BCEE95EEEA4FCD7E91114 /* LEIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC62CF9B61792E974C697 /* LEIO.m */; };
-		688BCF1E09ED5BD1126645AB /* NSSetLEAdditionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC9C0C40CB896CE144CE8 /* NSSetLEAdditionalTest.m */; };
-		688BCF52E4A0360CFE087652 /* LETiltSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCCB29C364642435FFD79 /* LETiltSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688BCF52E4A0360CFE087652 /* LETiltSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCCB29C364642435FFD79 /* LETiltSensor.h */; };
 		688BCF6E300FCE716AFB3467 /* LEInputFormat+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC21535A369D21E9DD01E /* LEInputFormat+Project.h */; };
 		688BCFD729A90547B0665FF2 /* LEService+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC379205A129A36909836 /* LEService+Project.h */; };
 		688BCFE41B8208AB9ADF4911 /* LEInputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCF496BBBCF5170180092 /* LEInputFormat.m */; };
-		688BCFE5A732719CAC423CD2 /* LEPiezoTonePlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2A86DE515401C09498F /* LEPiezoTonePlayerTest.m */; };
-		688BCFF01226CD9066813D3B /* NSMutableArray+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2F7CC4B8CCDACEC7CF5 /* NSMutableArray+Test.m */; };
 		9816E4BC1AA71B4900911396 /* LEGODeviceManagerUnityWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9816E4B11AA71B4900911396 /* LEGODeviceManagerUnityWrapper.h */; };
 		9816E4BD1AA71B4900911396 /* LEGODeviceManagerUnityWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9816E4B11AA71B4900911396 /* LEGODeviceManagerUnityWrapper.h */; };
 		9816E4BE1AA71B4900911396 /* LEGODeviceManagerUnityWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9816E4B21AA71B4900911396 /* LEGODeviceManagerUnityWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -202,8 +175,6 @@
 		981D28071AC5A45B00942243 /* LEGOWrapperSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D28021AC5A45B00942243 /* LEGOWrapperSerialization.m */; };
 		981D28081AC5A45B00942243 /* LEGOWrapperSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D28021AC5A45B00942243 /* LEGOWrapperSerialization.m */; };
 		981D28091AC5A45B00942243 /* LEGOWrapperSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D28021AC5A45B00942243 /* LEGOWrapperSerialization.m */; };
-		981D280C1AC5AF5100942243 /* LEGOWrapperSerializationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D280B1AC5AF5100942243 /* LEGOWrapperSerializationTest.m */; };
-		981D280D1AC5AF5100942243 /* LEGOWrapperSerializationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 981D280B1AC5AF5100942243 /* LEGOWrapperSerializationTest.m */; };
 		982FFF3F1A89FD670049687C /* LEGODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5D8A941827C08400F21865 /* LEGODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		982FFF401A89FDAE0049687C /* LEErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C1766A18FD5255005D8C85 /* LEErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		982FFF411A89FDBF0049687C /* LEDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BC9462320DF37DFFC1A5F /* LEDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -287,34 +258,6 @@
 		982FFF8F1A89FF6F0049687C /* CBCharacteristic+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCFBFA7A23A731B68CD49 /* CBCharacteristic+LEAdditional.m */; };
 		982FFF901A89FF6F0049687C /* CBService+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC316E6F91D4E907F3C9F /* CBService+LEAdditional.m */; };
 		982FFF911A89FF6F0049687C /* CIColor+LEAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC0B6A0F910B0A0033C16 /* CIColor+LEAdditional.m */; };
-		982FFF921A8A03B90049687C /* CoreBluetoothMockFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC9A41DF6E06781468B05 /* CoreBluetoothMockFactory.m */; };
-		982FFF931A8A03B90049687C /* LETestStubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCD60009DA523BC6C1CF7 /* LETestStubFactory.m */; };
-		982FFF941A8A03D70049687C /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC6DD417FAED8D4F8DFE7 /* NSData+Hex.m */; };
-		982FFF951A8A03D70049687C /* LETestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45628164183AAE28005B7390 /* LETestCase.m */; };
-		982FFF961A8A03D70049687C /* LEIOStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCBED1E5ED83D38D12910 /* LEIOStub.m */; };
-		982FFF971A8A03DD0049687C /* LEBluetoothHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9A4961833C681008530B5 /* LEBluetoothHelperTest.m */; };
-		982FFF981A8A03DD0049687C /* LEBluetoothDeviceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC487CEDC1E5B4FEAD61E /* LEBluetoothDeviceTest.m */; };
-		982FFF991A8A03DD0049687C /* LEBluetoothIOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 455DF670191390BA00007F6B /* LEBluetoothIOTest.m */; };
-		982FFF9A1A8A03DD0049687C /* LEBluetoothDeviceManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCCE0AFBC3D948BEF61C5 /* LEBluetoothDeviceManagerTest.m */; };
-		982FFF9B1A8A03ED0049687C /* LEInputFormatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 458AD0001906508000608F34 /* LEInputFormatTest.m */; };
-		982FFF9C1A8A03ED0049687C /* LEInputCommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5F0F1E9FF4AB243ECFE /* LEInputCommandTest.m */; };
-		982FFF9D1A8A03ED0049687C /* LEOutputCommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCF774261BBF870084B2E /* LEOutputCommandTest.m */; };
-		982FFF9E1A8A03F70049687C /* NSSetLEAdditionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC9C0C40CB896CE144CE8 /* NSSetLEAdditionalTest.m */; };
-		982FFF9F1A8A03F70049687C /* NSMutableArray+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2F7CC4B8CCDACEC7CF5 /* NSMutableArray+Test.m */; };
-		982FFFA01A8A03F70049687C /* NSData+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5D4E0CE6CB00C4E9C8D /* NSData+Test.m */; };
-		982FFFA11A8A03FE0049687C /* LEMotorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC76D2AB44DCBFE249382 /* LEMotorTest.m */; };
-		982FFFA21A8A03FE0049687C /* LETiltSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC5FEB0B5250A1940D8AD /* LETiltSensorTest.m */; };
-		982FFFA31A8A03FE0049687C /* LEServiceFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCA06460BEF29E4F207BD /* LEServiceFactoryTest.m */; };
-		982FFFA41A8A03FE0049687C /* LEMotionSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCE5F9ED5184BC9B99D05 /* LEMotionSensorTest.m */; };
-		982FFFA51A8A03FE0049687C /* LEServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC04CA69A240C26E11421 /* LEServiceTest.m */; };
-		982FFFA61A8A03FE0049687C /* LEVoltageSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC7675214725131BD9C6B /* LEVoltageSensorTest.m */; };
-		982FFFA71A8A03FE0049687C /* LECurrentSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCC59D07AA263C3CF2055 /* LECurrentSensorTest.m */; };
-		982FFFA81A8A03FE0049687C /* LEPiezoTonePlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC2A86DE515401C09498F /* LEPiezoTonePlayerTest.m */; };
-		982FFFA91A8A03FE0049687C /* LERGBLightTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC14AC74150D6DC64C539 /* LERGBLightTest.m */; };
-		982FFFAA1A8A04010049687C /* LEMultiDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BC1E9DF8DA8CFD6CD877D /* LEMultiDelegateTest.m */; };
-		982FFFAB1A8A04060049687C /* LEDeviceInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BCE416738E1FE789B3285 /* LEDeviceInfoTest.m */; };
-		983D0F841A8A2E730069B91E /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 983D0F7A1A8A2E640069B91E /* libOCMock.a */; };
-		983D0F851A8A2E7B0069B91E /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983D0F831A8A2E640069B91E /* OCMock.framework */; };
 		986D904A1ACA8E6E00F69946 /* LEGOUnityInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 986D90481ACA8E6E00F69946 /* LEGOUnityInvoker.h */; };
 		986D904B1ACA8E6E00F69946 /* LEGOUnityInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 986D90481ACA8E6E00F69946 /* LEGOUnityInvoker.h */; };
 		986D904C1ACA8E6E00F69946 /* LEGOUnityInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 986D90481ACA8E6E00F69946 /* LEGOUnityInvoker.h */; };
@@ -322,15 +265,6 @@
 		986D904E1ACA8E6E00F69946 /* LEGOUnityInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 986D90491ACA8E6E00F69946 /* LEGOUnityInvoker.m */; };
 		986D904F1ACA8E6E00F69946 /* LEGOUnityInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 986D90491ACA8E6E00F69946 /* LEGOUnityInvoker.m */; };
 		986D90501ACA8E6E00F69946 /* LEGOUnityInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 986D90491ACA8E6E00F69946 /* LEGOUnityInvoker.m */; };
-		987C4D751ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D741ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m */; };
-		987C4D761ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D741ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m */; };
-		987C4D791ACBE4610084FE95 /* LEGODeviceWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D781ACBE4610084FE95 /* LEGODeviceWrapperTest.m */; };
-		987C4D7A1ACBE4610084FE95 /* LEGODeviceWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D781ACBE4610084FE95 /* LEGODeviceWrapperTest.m */; };
-		987C4D7D1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D7C1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m */; };
-		987C4D7E1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D7C1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m */; };
-		987C4D811ACC28E30084FE95 /* LEGOLoggerWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D801ACC28E30084FE95 /* LEGOLoggerWrapperTest.m */; };
-		987C4D821ACC28E30084FE95 /* LEGOLoggerWrapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4D801ACC28E30084FE95 /* LEGOLoggerWrapperTest.m */; };
-		98917AC41A8A32BA00D9457A /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 983D0F831A8A2E640069B91E /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98B067641A89F6A5003C8582 /* LEGODevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B067591A89F6A4003C8582 /* LEGODevice.framework */; };
 		98E043A21ADD020000AD9F5B /* UnityCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E043A01ADD020000AD9F5B /* UnityCallbacks.h */; };
 		98E043A31ADD020000AD9F5B /* UnityCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E043A01ADD020000AD9F5B /* UnityCallbacks.h */; };
@@ -438,7 +372,6 @@
 		98FE14801AADEB4D007142BA /* LEInputCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCBD4D24603C8CA78CEED /* LEInputCommand.h */; };
 		98FE14811AADEB4D007142BA /* LEOutputCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BCB75B64980241C8D1466 /* LEOutputCommand.h */; };
 		98FE14861AAEE0F8007142BA /* UnityIOSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D7E72E1AAD9FF7008F8884 /* UnityIOSBridge.m */; };
-		DDF9A4971833C681008530B5 /* LEBluetoothHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF9A4961833C681008530B5 /* LEBluetoothHelperTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -474,7 +407,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98917AC41A8A32BA00D9457A /* OCMock.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,12 +428,8 @@
 		19AF0656827920043D786E88 /* LEBluetoothHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothHelper.m; sourceTree = "<group>"; };
 		19AF07ABFA45F3A9C7C2B135 /* LEBluetoothDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothDeviceManager.m; sourceTree = "<group>"; };
 		19AF0A77678F25B5AE6C2576 /* LEBluetoothDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothDevice.m; sourceTree = "<group>"; };
-		455DF670191390BA00007F6B /* LEBluetoothIOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothIOTest.m; sourceTree = "<group>"; };
 		45611BB2183D117E0093A2D8 /* NSData+LEAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LEAdditional.h"; sourceTree = "<group>"; };
 		45611BB3183D117E0093A2D8 /* NSData+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LEAdditional.m"; sourceTree = "<group>"; };
-		45628163183AAE28005B7390 /* LETestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETestCase.h; sourceTree = "<group>"; };
-		45628164183AAE28005B7390 /* LETestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETestCase.m; sourceTree = "<group>"; };
-		458AD0001906508000608F34 /* LEInputFormatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEInputFormatTest.m; sourceTree = "<group>"; };
 		45B2F26D181FA99F000274A2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		45BAB99217BCD29D00D0850C /* libLEGODevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLEGODevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BAB99517BCD29D00D0850C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -509,69 +437,50 @@
 		45BAB9A217BCD29D00D0850C /* LEGODeviceTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEGODeviceTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BAB9A317BCD29D00D0850C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		45BAB9A617BCD29D00D0850C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		45BAB9AD17BCD29D00D0850C /* LEGODeviceTests-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEGODeviceTests-iOS-Info.plist"; sourceTree = "<group>"; };
-		45BAB9AF17BCD29D00D0850C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45BAB9BD17BCD2C100D0850C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		45C1766A18FD5255005D8C85 /* LEErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEErrorCodes.h; sourceTree = "<group>"; };
 		45F37AD81AB9A3320086A7AD /* LEGOLoggerUnityWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOLoggerUnityWrapper.h; sourceTree = "<group>"; };
 		45F37AD91AB9A3320086A7AD /* LEGOLoggerUnityWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOLoggerUnityWrapper.m; sourceTree = "<group>"; };
 		688BC014486758D80DAFBCA1 /* LEMultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMultiDelegate.m; sourceTree = "<group>"; };
 		688BC0455BCE524836C62554 /* LEDataFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDataFormat.h; sourceTree = "<group>"; };
-		688BC04CA69A240C26E11421 /* LEServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEServiceTest.m; sourceTree = "<group>"; };
 		688BC0B24D297A5D390143D8 /* LEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDevice.m; sourceTree = "<group>"; };
 		688BC0B6A0F910B0A0033C16 /* CIColor+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIColor+LEAdditional.m"; sourceTree = "<group>"; };
-		688BC0D641F9A92AEB7DDF22 /* CoreBluetoothMockFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetoothMockFactory.h; sourceTree = "<group>"; };
 		688BC12DEB89A83D19846FBE /* LELogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LELogger.h; sourceTree = "<group>"; };
 		688BC1489A10657409019B53 /* LECharacteristicDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECharacteristicDefinition.m; sourceTree = "<group>"; };
 		688BC148DC269860DCABDC25 /* LECurrentSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LECurrentSensor.h; sourceTree = "<group>"; };
-		688BC14AC74150D6DC64C539 /* LERGBLightTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LERGBLightTest.m; sourceTree = "<group>"; };
 		688BC157AAF8A6613F2376D4 /* CBService+LEAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBService+LEAdditional.h"; sourceTree = "<group>"; };
 		688BC182B62FB8C078CEA8A5 /* LEDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDeviceInfo.h; sourceTree = "<group>"; };
 		688BC1B43F40ACF0C7C88141 /* LEGenericService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGenericService.h; sourceTree = "<group>"; };
-		688BC1E9DF8DA8CFD6CD877D /* LEMultiDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMultiDelegateTest.m; sourceTree = "<group>"; };
 		688BC1F637F83C0F9440B9A4 /* CIColor+LEAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIColor+LEAdditional.h"; sourceTree = "<group>"; };
 		688BC1FABFD8D3936C840C6F /* LELogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LELogger.m; sourceTree = "<group>"; };
 		688BC20AFE8E724892F773C8 /* LEGenericService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGenericService.m; sourceTree = "<group>"; };
 		688BC21535A369D21E9DD01E /* LEInputFormat+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEInputFormat+Project.h"; sourceTree = "<group>"; };
 		688BC2524EFE5F560A8851B5 /* LELogger+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LELogger+Project.m"; sourceTree = "<group>"; };
-		688BC2A86DE515401C09498F /* LEPiezoTonePlayerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEPiezoTonePlayerTest.m; sourceTree = "<group>"; };
-		688BC2AAB078AFE8E9DC28DF /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
 		688BC2B6F3834F98BC608D26 /* LEDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDeviceManager.m; sourceTree = "<group>"; };
 		688BC2F4FAD3CC2AA8021E3F /* LEMultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEMultiDelegate.h; sourceTree = "<group>"; };
-		688BC2F7CC4B8CCDACEC7CF5 /* NSMutableArray+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Test.m"; sourceTree = "<group>"; };
 		688BC316E6F91D4E907F3C9F /* CBService+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBService+LEAdditional.m"; sourceTree = "<group>"; };
 		688BC32E08C7DA58B8A87FAF /* LEVoltageSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEVoltageSensor.m; sourceTree = "<group>"; };
-		688BC33071425C3D821FF527 /* NSData+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Test.h"; sourceTree = "<group>"; };
 		688BC379205A129A36909836 /* LEService+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEService+Project.h"; sourceTree = "<group>"; };
 		688BC3AAC01AD3AC7058FEDC /* LERevision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LERevision.m; sourceTree = "<group>"; };
 		688BC3BC22C6693FDDC87647 /* LEIOServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEIOServiceDefinition.m; sourceTree = "<group>"; };
 		688BC3FF1841DFD613D230F2 /* LELogger+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LELogger+Project.h"; sourceTree = "<group>"; };
 		688BC45300331E28373FF9EC /* LEIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEIO.h; sourceTree = "<group>"; };
 		688BC474E6590635BF9AEC04 /* LEBatteryServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBatteryServiceDefinition.m; sourceTree = "<group>"; };
-		688BC487CEDC1E5B4FEAD61E /* LEBluetoothDeviceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothDeviceTest.m; sourceTree = "<group>"; };
 		688BC4A46DC8628A0BA60EAA /* LEConnectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEConnectInfo.m; sourceTree = "<group>"; };
 		688BC4E67C02AEDE5327701E /* NSArray+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LEAdditional.m"; sourceTree = "<group>"; };
 		688BC50F829C24C44C1467E7 /* LEBluetoothServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEBluetoothServiceDefinition.h; sourceTree = "<group>"; };
 		688BC520AA624943C2050A1F /* NSSet+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+LEAdditional.m"; sourceTree = "<group>"; };
-		688BC5D4E0CE6CB00C4E9C8D /* NSData+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Test.m"; sourceTree = "<group>"; };
 		688BC5E6A6912B64D1AC21F8 /* LEMotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMotor.m; sourceTree = "<group>"; };
-		688BC5F0F1E9FF4AB243ECFE /* LEInputCommandTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEInputCommandTest.m; sourceTree = "<group>"; };
 		688BC5F2B598D83697BA5894 /* LEOutputCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOutputCommand.m; sourceTree = "<group>"; };
-		688BC5FEB0B5250A1940D8AD /* LETiltSensorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETiltSensorTest.m; sourceTree = "<group>"; };
 		688BC61C39916D2D8CD89316 /* LEServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEServiceFactory.m; sourceTree = "<group>"; };
 		688BC62CF9B61792E974C697 /* LEIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEIO.m; sourceTree = "<group>"; };
 		688BC6446EE9D416542855EF /* LERGBLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LERGBLight.h; sourceTree = "<group>"; };
 		688BC66D2D5F33BD620F81E9 /* LEPiezoTonePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEPiezoTonePlayer.m; sourceTree = "<group>"; };
 		688BC6AC4E03FA6075112F9E /* LEIOServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEIOServiceDefinition.h; sourceTree = "<group>"; };
-		688BC6DD417FAED8D4F8DFE7 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
 		688BC6E6AAA883664ABFB1D6 /* LERevision+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LERevision+Project.h"; sourceTree = "<group>"; };
 		688BC6F6A6AE13A1D9F5FF5E /* LEDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDeviceManager.h; sourceTree = "<group>"; };
-		688BC7269F5381F571B728AF /* NSMutableArray+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Test.h"; sourceTree = "<group>"; };
 		688BC743C55B496E41C6DBED /* LEDeviceServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDeviceServiceDefinition.m; sourceTree = "<group>"; };
-		688BC745961FE8EE539331CE /* LEIOStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEIOStub.h; sourceTree = "<group>"; };
 		688BC74DE236A9F647F41301 /* LEDataFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDataFormat.m; sourceTree = "<group>"; };
-		688BC7675214725131BD9C6B /* LEVoltageSensorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEVoltageSensorTest.m; sourceTree = "<group>"; };
-		688BC76D2AB44DCBFE249382 /* LEMotorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMotorTest.m; sourceTree = "<group>"; };
 		688BC78630B038BCB128071D /* LEDeviceInfo+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEDeviceInfo+Project.h"; sourceTree = "<group>"; };
 		688BC811CB81F89D8F49F524 /* CBCharacteristic+LEAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBCharacteristic+LEAdditional.h"; sourceTree = "<group>"; };
 		688BC82CC5BC4A232043A791 /* LEService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEService.h; sourceTree = "<group>"; };
@@ -582,11 +491,8 @@
 		688BC9462320DF37DFFC1A5F /* LEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDevice.h; sourceTree = "<group>"; };
 		688BC952EDB806901C4CAD30 /* LEBatteryServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEBatteryServiceDefinition.h; sourceTree = "<group>"; };
 		688BC96BF0C9CB7B0B94EB77 /* LEMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEMotor.h; sourceTree = "<group>"; };
-		688BC9A41DF6E06781468B05 /* CoreBluetoothMockFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetoothMockFactory.m; sourceTree = "<group>"; };
-		688BC9C0C40CB896CE144CE8 /* NSSetLEAdditionalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetLEAdditionalTest.m; sourceTree = "<group>"; };
 		688BC9E52EA45663C4A533EA /* LEConnectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEConnectInfo.h; sourceTree = "<group>"; };
 		688BC9FCDA8B7D4A73F8C03A /* LEDeviceInfoServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDeviceInfoServiceDefinition.m; sourceTree = "<group>"; };
-		688BCA06460BEF29E4F207BD /* LEServiceFactoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEServiceFactoryTest.m; sourceTree = "<group>"; };
 		688BCA2B349349E347BC6E81 /* LEConnectInfo+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEConnectInfo+Project.h"; sourceTree = "<group>"; };
 		688BCA2EF88360DC6228F2ED /* LERevision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LERevision.h; sourceTree = "<group>"; };
 		688BCA89AA2847D9AFAA5501 /* LECurrentSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECurrentSensor.m; sourceTree = "<group>"; };
@@ -599,23 +505,15 @@
 		688BCBB03A4197A3448FF9C2 /* LEDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDeviceInfo.m; sourceTree = "<group>"; };
 		688BCBB8BD16AFCA09052426 /* LERGBLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LERGBLight.m; sourceTree = "<group>"; };
 		688BCBD4D24603C8CA78CEED /* LEInputCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEInputCommand.h; sourceTree = "<group>"; };
-		688BCBED1E5ED83D38D12910 /* LEIOStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEIOStub.m; sourceTree = "<group>"; };
 		688BCBFADD2F9C31FE454CDD /* LEMotionSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEMotionSensor.h; sourceTree = "<group>"; };
-		688BCC59D07AA263C3CF2055 /* LECurrentSensorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECurrentSensorTest.m; sourceTree = "<group>"; };
 		688BCCB29C364642435FFD79 /* LETiltSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETiltSensor.h; sourceTree = "<group>"; };
 		688BCCC6F5D3F7A38692C9AA /* LEMotionSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMotionSensor.m; sourceTree = "<group>"; };
 		688BCCC786A1066C6CB1EC08 /* LEService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEService.m; sourceTree = "<group>"; };
-		688BCCE0AFBC3D948BEF61C5 /* LEBluetoothDeviceManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothDeviceManagerTest.m; sourceTree = "<group>"; };
 		688BCCF0A85FEEC01EF83A97 /* LEInputCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEInputCommand.m; sourceTree = "<group>"; };
 		688BCD1152321169C87EAA8F /* LEBluetoothServiceDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothServiceDefinition.m; sourceTree = "<group>"; };
-		688BCD60009DA523BC6C1CF7 /* LETestStubFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETestStubFactory.m; sourceTree = "<group>"; };
 		688BCD7EFE90504694D7BC76 /* LEInputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEInputFormat.h; sourceTree = "<group>"; };
-		688BCE416738E1FE789B3285 /* LEDeviceInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDeviceInfoTest.m; sourceTree = "<group>"; };
-		688BCE50355E2759DF454894 /* LETestStubFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETestStubFactory.h; sourceTree = "<group>"; };
-		688BCE5F9ED5184BC9B99D05 /* LEMotionSensorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEMotionSensorTest.m; sourceTree = "<group>"; };
 		688BCF496BBBCF5170180092 /* LEInputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEInputFormat.m; sourceTree = "<group>"; };
 		688BCF744D61ED6EF45F08E2 /* LEBluetoothIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothIO.m; sourceTree = "<group>"; };
-		688BCF774261BBF870084B2E /* LEOutputCommandTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOutputCommandTest.m; sourceTree = "<group>"; };
 		688BCFADF8F1E139CBE4156D /* LEDeviceInfoServiceDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDeviceInfoServiceDefinition.h; sourceTree = "<group>"; };
 		688BCFB4FC588188B9BC612A /* LEPiezoTonePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEPiezoTonePlayer.h; sourceTree = "<group>"; };
 		688BCFBFA7A23A731B68CD49 /* CBCharacteristic+LEAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBCharacteristic+LEAdditional.m"; sourceTree = "<group>"; };
@@ -630,28 +528,13 @@
 		9816E4BA1AA71B4900911396 /* UnityOSXBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityOSXBridge.h; sourceTree = "<group>"; };
 		9816E4BB1AA71B4900911396 /* UnityOSXBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityOSXBridge.m; sourceTree = "<group>"; };
 		9816E4D81AA72A9900911396 /* LEGODevice-OSX.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEGODevice-OSX.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9816E4DF1AA72B6100911396 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "UnityDeviceSDKWrapper/LEGODevice-OSX-Unity/Info.plist"; sourceTree = SOURCE_ROOT; };
 		9816E50F1AA72BF500911396 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		981D28011AC5A45B00942243 /* LEGOWrapperSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOWrapperSerialization.h; sourceTree = "<group>"; };
 		981D28021AC5A45B00942243 /* LEGOWrapperSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOWrapperSerialization.m; sourceTree = "<group>"; };
-		981D280B1AC5AF5100942243 /* LEGOWrapperSerializationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOWrapperSerializationTest.m; sourceTree = "<group>"; };
-		983D0F7A1A8A2E640069B91E /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		983D0F7C1A8A2E640069B91E /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		983D0F7D1A8A2E640069B91E /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		983D0F7E1A8A2E640069B91E /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		983D0F7F1A8A2E640069B91E /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		983D0F801A8A2E640069B91E /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		983D0F811A8A2E640069B91E /* OCMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
-		983D0F831A8A2E640069B91E /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		983D0F861A8A2E960069B91E /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = LEGODeviceTests/OCMock/OSX/OCMock.framework; sourceTree = "<group>"; };
-		983D0F881A8A2F9B0069B91E /* LEGODeviceTests-OSX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LEGODeviceTests-OSX-Info.plist"; sourceTree = "<group>"; };
 		983D0F8B1A8A30EF0069B91E /* LEGODevice-OSX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LEGODevice-OSX-Info.plist"; sourceTree = "<group>"; };
 		986D90481ACA8E6E00F69946 /* LEGOUnityInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOUnityInvoker.h; sourceTree = "<group>"; };
 		986D90491ACA8E6E00F69946 /* LEGOUnityInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOUnityInvoker.m; sourceTree = "<group>"; };
-		987C4D741ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGODeviceManagerWrapperTest.m; sourceTree = "<group>"; };
-		987C4D781ACBE4610084FE95 /* LEGODeviceWrapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGODeviceWrapperTest.m; sourceTree = "<group>"; };
-		987C4D7C1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOServiceWrapperTest.m; sourceTree = "<group>"; };
-		987C4D801ACC28E30084FE95 /* LEGOLoggerWrapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOLoggerWrapperTest.m; sourceTree = "<group>"; };
 		98B03BC61ADBAD5600DF1FEB /* LEGODeviceSDK-Native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEGODeviceSDK-Native.h"; sourceTree = "<group>"; };
 		98B067591A89F6A4003C8582 /* LEGODevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEGODevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B067631A89F6A5003C8582 /* LEGODeviceTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEGODeviceTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -660,7 +543,6 @@
 		98E043A11ADD020000AD9F5B /* UnityCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityCallbacks.m; sourceTree = "<group>"; };
 		98FE14851AADEB4D007142BA /* libLEGODevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLEGODevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5D8A941827C08400F21865 /* LEGODevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGODevice.h; sourceTree = "<group>"; };
-		DDF9A4961833C681008530B5 /* LEBluetoothHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEBluetoothHelperTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -668,7 +550,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B2F270181FF426000274A2 /* XCTest.framework in Frameworks */,
 				45B2F26F181FF239000274A2 /* CoreImage.framework in Frameworks */,
 				45BAB9BE17BCD2C100D0850C /* CoreBluetooth.framework in Frameworks */,
 				45BAB99617BCD29D00D0850C /* Foundation.framework in Frameworks */,
@@ -683,7 +564,6 @@
 				45BAB9A417BCD29D00D0850C /* XCTest.framework in Frameworks */,
 				45BAB9A517BCD29D00D0850C /* Foundation.framework in Frameworks */,
 				45BAB9AA17BCD29D00D0850C /* libLEGODevice.a in Frameworks */,
-				983D0F841A8A2E730069B91E /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,7 +588,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D0F851A8A2E7B0069B91E /* OCMock.framework in Frameworks */,
 				98B067641A89F6A5003C8582 /* LEGODevice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,8 +653,6 @@
 			isa = PBXGroup;
 			children = (
 				45BAB99717BCD29D00D0850C /* LEGODevice */,
-				45BAB9AB17BCD29D00D0850C /* LEGODeviceTests */,
-				9816E4D91AA72A9900911396 /* LEGODevice-OSX-Unity */,
 				45BAB99417BCD29D00D0850C /* Frameworks */,
 				45BAB99317BCD29D00D0850C /* Products */,
 			);
@@ -828,28 +705,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		45BAB9AB17BCD29D00D0850C /* LEGODeviceTests */ = {
-			isa = PBXGroup;
-			children = (
-				45BAB9AC17BCD29D00D0850C /* Supporting Files */,
-				688BC5503D7D56610B1C90FA /* Mock and Stubs */,
-				688BCDD7BD88A9288B1B9AB6 /* OCMock */,
-				688BC12BDF1FD5BAE972C3E6 /* Helper */,
-				688BC611B8D31943F479B378 /* Tests */,
-			);
-			path = LEGODeviceTests;
-			sourceTree = "<group>";
-		};
-		45BAB9AC17BCD29D00D0850C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				45BAB9AD17BCD29D00D0850C /* LEGODeviceTests-iOS-Info.plist */,
-				983D0F881A8A2F9B0069B91E /* LEGODeviceTests-OSX-Info.plist */,
-				45BAB9AE17BCD29D00D0850C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		45BAB9D617BCD32B00D0850C /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -873,19 +728,6 @@
 				688BC3FF1841DFD613D230F2 /* LELogger+Project.h */,
 			);
 			name = Project;
-			sourceTree = "<group>";
-		};
-		688BC12BDF1FD5BAE972C3E6 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				688BC6DD417FAED8D4F8DFE7 /* NSData+Hex.m */,
-				688BC2AAB078AFE8E9DC28DF /* NSData+Hex.h */,
-				45628163183AAE28005B7390 /* LETestCase.h */,
-				45628164183AAE28005B7390 /* LETestCase.m */,
-				688BCBED1E5ED83D38D12910 /* LEIOStub.m */,
-				688BC745961FE8EE539331CE /* LEIOStub.h */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		688BC271F77401B9B0E91CDB /* Util */ = {
@@ -912,18 +754,6 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
-		688BC38065F2733FDB37F370 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				688BC9C0C40CB896CE144CE8 /* NSSetLEAdditionalTest.m */,
-				688BC2F7CC4B8CCDACEC7CF5 /* NSMutableArray+Test.m */,
-				688BC7269F5381F571B728AF /* NSMutableArray+Test.h */,
-				688BC5D4E0CE6CB00C4E9C8D /* NSData+Test.m */,
-				688BC33071425C3D821FF527 /* NSData+Test.h */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		688BC38D75A8C53344115850 /* Project */ = {
 			isa = PBXGroup;
 			children = (
@@ -932,14 +762,6 @@
 				688BC379205A129A36909836 /* LEService+Project.h */,
 			);
 			name = Project;
-			sourceTree = "<group>";
-		};
-		688BC3C6AA2A8F1636503774 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				688BCE416738E1FE789B3285 /* LEDeviceInfoTest.m */,
-			);
-			path = Device;
 			sourceTree = "<group>";
 		};
 		688BC3D607399CE4D71A731A /* Project */ = {
@@ -976,65 +798,6 @@
 				688BC6446EE9D416542855EF /* LERGBLight.h */,
 			);
 			name = Services;
-			sourceTree = "<group>";
-		};
-		688BC5503D7D56610B1C90FA /* Mock and Stubs */ = {
-			isa = PBXGroup;
-			children = (
-				688BC0D641F9A92AEB7DDF22 /* CoreBluetoothMockFactory.h */,
-				688BC9A41DF6E06781468B05 /* CoreBluetoothMockFactory.m */,
-				688BCD60009DA523BC6C1CF7 /* LETestStubFactory.m */,
-				688BCE50355E2759DF454894 /* LETestStubFactory.h */,
-			);
-			path = "Mock and Stubs";
-			sourceTree = "<group>";
-		};
-		688BC5D6E5C23069A20D369D /* Input and Output */ = {
-			isa = PBXGroup;
-			children = (
-				458AD0001906508000608F34 /* LEInputFormatTest.m */,
-				688BC5F0F1E9FF4AB243ECFE /* LEInputCommandTest.m */,
-				688BCF774261BBF870084B2E /* LEOutputCommandTest.m */,
-			);
-			path = "Input and Output";
-			sourceTree = "<group>";
-		};
-		688BC611B8D31943F479B378 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DDF9A4951833C681008530B5 /* Bluetooth */,
-				688BC5D6E5C23069A20D369D /* Input and Output */,
-				688BC38065F2733FDB37F370 /* Categories */,
-				688BC8927F53964308F7A3B0 /* Services */,
-				688BC94FAE4309F9D522CF5B /* Util */,
-				688BC3C6AA2A8F1636503774 /* Device */,
-				9816E5151AA72D9B00911396 /* Unity Wrapper */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		688BC8927F53964308F7A3B0 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				688BC76D2AB44DCBFE249382 /* LEMotorTest.m */,
-				688BC5FEB0B5250A1940D8AD /* LETiltSensorTest.m */,
-				688BCA06460BEF29E4F207BD /* LEServiceFactoryTest.m */,
-				688BCE5F9ED5184BC9B99D05 /* LEMotionSensorTest.m */,
-				688BC04CA69A240C26E11421 /* LEServiceTest.m */,
-				688BC7675214725131BD9C6B /* LEVoltageSensorTest.m */,
-				688BCC59D07AA263C3CF2055 /* LECurrentSensorTest.m */,
-				688BC2A86DE515401C09498F /* LEPiezoTonePlayerTest.m */,
-				688BC14AC74150D6DC64C539 /* LERGBLightTest.m */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		688BC94FAE4309F9D522CF5B /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				688BC1E9DF8DA8CFD6CD877D /* LEMultiDelegateTest.m */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		688BCA14B2083318FC5AA7E7 /* Categories */ = {
@@ -1075,15 +838,6 @@
 			name = "Service Definitions";
 			sourceTree = "<group>";
 		};
-		688BCDD7BD88A9288B1B9AB6 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				983D0F791A8A2E640069B91E /* iOS */,
-				983D0F821A8A2E640069B91E /* OSX */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
 		688BCF6F3FCBE636CE720CE4 /* Input and Output */ = {
 			isa = PBXGroup;
 			children = (
@@ -1107,56 +861,6 @@
 			name = "Unity Wrapper";
 			path = UnityDeviceSDKWrapper;
 			sourceTree = SOURCE_ROOT;
-		};
-		9816E4D91AA72A9900911396 /* LEGODevice-OSX-Unity */ = {
-			isa = PBXGroup;
-			children = (
-				9816E4DF1AA72B6100911396 /* Info.plist */,
-			);
-			path = "LEGODevice-OSX-Unity";
-			sourceTree = "<group>";
-		};
-		9816E5151AA72D9B00911396 /* Unity Wrapper */ = {
-			isa = PBXGroup;
-			children = (
-				981D280B1AC5AF5100942243 /* LEGOWrapperSerializationTest.m */,
-				987C4D741ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m */,
-				987C4D781ACBE4610084FE95 /* LEGODeviceWrapperTest.m */,
-				987C4D7C1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m */,
-				987C4D801ACC28E30084FE95 /* LEGOLoggerWrapperTest.m */,
-			);
-			path = "Unity Wrapper";
-			sourceTree = "<group>";
-		};
-		983D0F791A8A2E640069B91E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				983D0F7A1A8A2E640069B91E /* libOCMock.a */,
-				983D0F7B1A8A2E640069B91E /* OCMock */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		983D0F7B1A8A2E640069B91E /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				983D0F7C1A8A2E640069B91E /* NSNotificationCenter+OCMAdditions.h */,
-				983D0F7D1A8A2E640069B91E /* OCMArg.h */,
-				983D0F7E1A8A2E640069B91E /* OCMConstraint.h */,
-				983D0F7F1A8A2E640069B91E /* OCMock.h */,
-				983D0F801A8A2E640069B91E /* OCMockObject.h */,
-				983D0F811A8A2E640069B91E /* OCMockRecorder.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		983D0F821A8A2E640069B91E /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				983D0F831A8A2E640069B91E /* OCMock.framework */,
-			);
-			path = OSX;
-			sourceTree = "<group>";
 		};
 		986D90511ACA8F4C00F69946 /* SDK Wrappers */ = {
 			isa = PBXGroup;
@@ -1198,18 +902,6 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
-		DDF9A4951833C681008530B5 /* Bluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				DDF9A4961833C681008530B5 /* LEBluetoothHelperTest.m */,
-				688BC487CEDC1E5B4FEAD61E /* LEBluetoothDeviceTest.m */,
-				455DF670191390BA00007F6B /* LEBluetoothIOTest.m */,
-				688BCCE0AFBC3D948BEF61C5 /* LEBluetoothDeviceManagerTest.m */,
-			);
-			name = Bluetooth;
-			path = BLuetooth;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1217,18 +909,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688BC7C3AC1EFEB373D3A95B /* LEPiezoTonePlayer.h in Headers */,
-				688BC1076D0157566F9BB8C2 /* LERGBLight.h in Headers */,
-				688BCF52E4A0360CFE087652 /* LETiltSensor.h in Headers */,
-				688BCE9E274E498152EC665B /* LEMotionSensor.h in Headers */,
-				688BC1986E4E4695A49AFD67 /* LEGenericService.h in Headers */,
-				688BCEAEEEB7B620D9CD466C /* LEService.h in Headers */,
-				457D018E18F6BEF5001D6660 /* LEGODevice.h in Headers */,
 				98E043A21ADD020000AD9F5B /* UnityCallbacks.h in Headers */,
 				9816E4CE1AA71B4900911396 /* UnityOSXBridge.h in Headers */,
 				457D018F18F6BF22001D6660 /* LEBluetoothHelper.h in Headers */,
-				688BC162B66CE6EE66641BCD /* LELogger.h in Headers */,
-				45C1766B18FD5255005D8C85 /* LEErrorCodes.h in Headers */,
 				688BC1F9F52E9F0192882992 /* LEMultiDelegate.h in Headers */,
 				688BC3716C8BCBE5EF26037E /* LELogger+Project.h in Headers */,
 				688BCC983EF9E4AAACDB1EE2 /* LEBluetoothDevice+Project.h in Headers */,
@@ -1237,28 +920,37 @@
 				688BC762DBE3B494EEC2EB1B /* LECharacteristicDefinition.h in Headers */,
 				688BCA02A29A186B7AE0B70A /* LEIOServiceDefinition.h in Headers */,
 				688BCB41C57A45B81FBF5C93 /* LEDeviceServiceDefinition.h in Headers */,
+				688BC7C3AC1EFEB373D3A95B /* LEPiezoTonePlayer.h in Headers */,
+				688BC1076D0157566F9BB8C2 /* LERGBLight.h in Headers */,
+				688BCF52E4A0360CFE087652 /* LETiltSensor.h in Headers */,
+				688BCE9E274E498152EC665B /* LEMotionSensor.h in Headers */,
+				688BC1986E4E4695A49AFD67 /* LEGenericService.h in Headers */,
+				688BCEAEEEB7B620D9CD466C /* LEService.h in Headers */,
+				457D018E18F6BEF5001D6660 /* LEGODevice.h in Headers */,
+				688BC162B66CE6EE66641BCD /* LELogger.h in Headers */,
+				45C1766B18FD5255005D8C85 /* LEErrorCodes.h in Headers */,
 				688BC41FC06C3115FD18B8A0 /* LEConnectInfo.h in Headers */,
 				457C6C271989097900232B13 /* LEDevice.h in Headers */,
 				688BC36EBAF6483E12313B4B /* LEInputFormat.h in Headers */,
-				688BCF6E300FCE716AFB3467 /* LEInputFormat+Project.h in Headers */,
-				688BC060A1E4E6C6BA5CE178 /* CBService+LEAdditional.h in Headers */,
 				688BC9578ACBD41C0F155505 /* LEVoltageSensor.h in Headers */,
 				688BC100CBC1CD27482F40D0 /* LECurrentSensor.h in Headers */,
 				457C6C28198909D500232B13 /* LEBluetoothDevice.h in Headers */,
-				688BC57F479FCFAC705BD723 /* LEServiceFactory.h in Headers */,
 				688BCAC70F5A4C281736AAA8 /* LEMotor.h in Headers */,
+				688BCB9CCDC5AADE6FAA97E6 /* LEDeviceManager.h in Headers */,
+				688BC9527008E016E0AA8CF5 /* LEDataFormat.h in Headers */,
+				688BC8C49765C903AF48F374 /* LEDeviceInfo.h in Headers */,
+				688BC316FFCBBBFD7D296306 /* LERevision.h in Headers */,
+				688BCF6E300FCE716AFB3467 /* LEInputFormat+Project.h in Headers */,
+				688BC060A1E4E6C6BA5CE178 /* CBService+LEAdditional.h in Headers */,
+				688BC57F479FCFAC705BD723 /* LEServiceFactory.h in Headers */,
 				688BC87237964AF07851F66B /* LEBluetoothIO.h in Headers */,
 				986D904A1ACA8E6E00F69946 /* LEGOUnityInvoker.h in Headers */,
 				688BCFD729A90547B0665FF2 /* LEService+Project.h in Headers */,
-				688BCB9CCDC5AADE6FAA97E6 /* LEDeviceManager.h in Headers */,
 				9816E4C01AA71B4900911396 /* LEGODeviceUnityWrapper.h in Headers */,
 				688BCED129EDF347F93700CE /* CIColor+LEAdditional.h in Headers */,
-				688BC9527008E016E0AA8CF5 /* LEDataFormat.h in Headers */,
 				688BC2F5DEC40FBBF1446DE9 /* LEBatteryServiceDefinition.h in Headers */,
 				9816E4C41AA71B4900911396 /* LEGOServiceUnityWrapper.h in Headers */,
 				688BC6F0527EA48668120171 /* LEDeviceInfoServiceDefinition.h in Headers */,
-				688BC8C49765C903AF48F374 /* LEDeviceInfo.h in Headers */,
-				688BC316FFCBBBFD7D296306 /* LERevision.h in Headers */,
 				688BC86B61719EC60D4066A9 /* LEDeviceInfo+Project.h in Headers */,
 				457C6C29198909D500232B13 /* LEBluetoothDeviceManager.h in Headers */,
 				9816E4BC1AA71B4900911396 /* LEGODeviceManagerUnityWrapper.h in Headers */,
@@ -1553,7 +1245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BAB9B017BCD29D00D0850C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1699,38 +1390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981D280C1AC5AF5100942243 /* LEGOWrapperSerializationTest.m in Sources */,
-				DDF9A4971833C681008530B5 /* LEBluetoothHelperTest.m in Sources */,
-				688BC193B84DE0F2014E16F3 /* NSData+Hex.m in Sources */,
-				458AD0011906508000608F34 /* LEInputFormatTest.m in Sources */,
 				98E043A71ADD020000AD9F5B /* UnityCallbacks.m in Sources */,
-				45628165183AAE28005B7390 /* LETestCase.m in Sources */,
-				688BCF1E09ED5BD1126645AB /* NSSetLEAdditionalTest.m in Sources */,
-				455DF671191390BA00007F6B /* LEBluetoothIOTest.m in Sources */,
-				688BC69D721029A0CAFF65B5 /* LEIOStub.m in Sources */,
-				688BCC4CE24A06F9F4F3B020 /* CoreBluetoothMockFactory.m in Sources */,
-				688BC9E0DD30693C1A3ED994 /* LETestStubFactory.m in Sources */,
-				688BC58D059B276163D2F0AA /* LEInputCommandTest.m in Sources */,
-				688BC6B86C95CEB6E11DCAE8 /* LEBluetoothDeviceTest.m in Sources */,
-				688BC87E98931E9E184E75A9 /* LEMotorTest.m in Sources */,
-				688BC0CC24B93B28B61F2217 /* LEOutputCommandTest.m in Sources */,
-				688BCBE11F787D4C7D117252 /* LEMultiDelegateTest.m in Sources */,
-				688BCB3F4167020F974205E9 /* LETiltSensorTest.m in Sources */,
-				688BC3F854474F2FA31438BC /* LEServiceFactoryTest.m in Sources */,
-				688BC4B4C45D3B81878DA85C /* LEMotionSensorTest.m in Sources */,
-				688BC34AE98AD9BDE37D1996 /* LEServiceTest.m in Sources */,
-				688BC1F76C6BAB868C2CD50B /* LEVoltageSensorTest.m in Sources */,
-				688BC4E08E37E71B916B3A96 /* LECurrentSensorTest.m in Sources */,
-				987C4D811ACC28E30084FE95 /* LEGOLoggerWrapperTest.m in Sources */,
-				688BCC75E036FC4C5EC4FE12 /* LEBluetoothDeviceManagerTest.m in Sources */,
-				688BCFF01226CD9066813D3B /* NSMutableArray+Test.m in Sources */,
-				688BCFE5A732719CAC423CD2 /* LEPiezoTonePlayerTest.m in Sources */,
-				987C4D751ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m in Sources */,
-				688BC6EB56EDA37DB1C1EA71 /* LERGBLightTest.m in Sources */,
-				987C4D7D1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m in Sources */,
-				987C4D791ACBE4610084FE95 /* LEGODeviceWrapperTest.m in Sources */,
-				688BCA3233720115A663EBE0 /* NSData+Test.m in Sources */,
-				688BC5834FD6DD884799D67D /* LEDeviceInfoTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1848,38 +1508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981D280D1AC5AF5100942243 /* LEGOWrapperSerializationTest.m in Sources */,
-				982FFF9C1A8A03ED0049687C /* LEInputCommandTest.m in Sources */,
-				982FFF9E1A8A03F70049687C /* NSSetLEAdditionalTest.m in Sources */,
-				982FFF981A8A03DD0049687C /* LEBluetoothDeviceTest.m in Sources */,
 				98E043A81ADD020000AD9F5B /* UnityCallbacks.m in Sources */,
-				982FFF961A8A03D70049687C /* LEIOStub.m in Sources */,
-				982FFF951A8A03D70049687C /* LETestCase.m in Sources */,
-				982FFF9A1A8A03DD0049687C /* LEBluetoothDeviceManagerTest.m in Sources */,
-				982FFF941A8A03D70049687C /* NSData+Hex.m in Sources */,
-				982FFFAA1A8A04010049687C /* LEMultiDelegateTest.m in Sources */,
-				982FFF971A8A03DD0049687C /* LEBluetoothHelperTest.m in Sources */,
-				982FFF991A8A03DD0049687C /* LEBluetoothIOTest.m in Sources */,
-				982FFFA31A8A03FE0049687C /* LEServiceFactoryTest.m in Sources */,
-				982FFF921A8A03B90049687C /* CoreBluetoothMockFactory.m in Sources */,
-				982FFFA11A8A03FE0049687C /* LEMotorTest.m in Sources */,
-				982FFFA51A8A03FE0049687C /* LEServiceTest.m in Sources */,
-				982FFFA81A8A03FE0049687C /* LEPiezoTonePlayerTest.m in Sources */,
-				982FFFA01A8A03F70049687C /* NSData+Test.m in Sources */,
-				982FFF9D1A8A03ED0049687C /* LEOutputCommandTest.m in Sources */,
-				982FFF9B1A8A03ED0049687C /* LEInputFormatTest.m in Sources */,
-				982FFFA61A8A03FE0049687C /* LEVoltageSensorTest.m in Sources */,
-				982FFFA21A8A03FE0049687C /* LETiltSensorTest.m in Sources */,
-				987C4D821ACC28E30084FE95 /* LEGOLoggerWrapperTest.m in Sources */,
-				982FFFA71A8A03FE0049687C /* LECurrentSensorTest.m in Sources */,
-				982FFF931A8A03B90049687C /* LETestStubFactory.m in Sources */,
-				982FFFAB1A8A04060049687C /* LEDeviceInfoTest.m in Sources */,
-				987C4D761ACADE970084FE95 /* LEGODeviceManagerWrapperTest.m in Sources */,
-				982FFF9F1A8A03F70049687C /* NSMutableArray+Test.m in Sources */,
-				987C4D7E1ACBF34E0084FE95 /* LEGOServiceWrapperTest.m in Sources */,
-				987C4D7A1ACBE4610084FE95 /* LEGODeviceWrapperTest.m in Sources */,
-				982FFFA41A8A03FE0049687C /* LEMotionSensorTest.m in Sources */,
-				982FFFA91A8A03FE0049687C /* LERGBLightTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1951,17 +1580,6 @@
 			targetProxy = 98B067651A89F6A5003C8582 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		45BAB9AE17BCD29D00D0850C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45BAB9AF17BCD29D00D0850C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		45BAB9B317BCD29D00D0850C /* Debug */ = {
